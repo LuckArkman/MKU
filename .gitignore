@@ -82,3 +82,7 @@ InitTestScene*.unity*
 # Play mode tests scene
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
 My project/Library/ArtifactDB
+My project/Library/ArtifactDB
+My project/Library/ArtifactDB-lock
+/My project/Library
+/My project/Library
