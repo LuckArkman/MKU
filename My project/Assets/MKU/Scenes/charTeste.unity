@@ -330,7 +330,7 @@ MonoBehaviour:
   m_VolumeTrigger: {fileID: 0}
   m_VolumeFrameworkUpdateModeOption: 2
   m_RenderPostProcessing: 1
-  m_Antialiasing: 3
+  m_Antialiasing: 1
   m_AntialiasingQuality: 2
   m_StopNaN: 0
   m_Dithering: 0
@@ -396,7 +396,7 @@ Light:
   serializedVersion: 12
   m_Type: 1
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
-  m_Intensity: 2
+  m_Intensity: 5
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -554,6 +554,10 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 8bb2c3eb8bd731a45b0ced321d632fe9, type: 2}
+    - target: {fileID: 5866666021909216657, guid: 40bc014e321028c4f897c6dbe82d8275, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -605,12 +609,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::MKU.Scripts.Character.PlayerController
   animator: {fileID: 1633116204}
   speed: 2
-  rotationSpeed: 10
+  turnCurveSpeed: 120
   groundLayer:
     serializedVersion: 2
     m_Bits: 1
   bobbingFrequency: 1
   bobbingAmplitude: 0.1
+  isMoving: 0
+  isRunning: 0
 --- !u!136 &1860284064
 CapsuleCollider:
   m_ObjectHideFlags: 0
