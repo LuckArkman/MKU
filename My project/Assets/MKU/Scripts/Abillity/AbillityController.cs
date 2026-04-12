@@ -20,11 +20,11 @@ namespace MKU.Scripts.Abillity
 
         public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
         {
-            if (!Singleton.Instance.controller.isMoving &&
-                !Singleton.Instance.controller.isRunning)
+            if (!Singleton.Instance._charController.isMoving &&
+                !Singleton.Instance._charController.isRunning)
             {
-                animator.SetBool(states.Walk.ToString(), Singleton.Instance.controller.isMoving);
-                animator.SetBool(states.Run.ToString(), Singleton.Instance.controller.isRunning);
+                animator.SetBool(states.Walk.ToString(), Singleton.Instance._charController.isMoving);
+                animator.SetBool(states.Run.ToString(), Singleton.Instance._charController.isRunning);
             }
         }
 

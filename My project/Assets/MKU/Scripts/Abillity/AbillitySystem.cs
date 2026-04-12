@@ -1,7 +1,7 @@
 ﻿using MKU.Scripts.Enums;
 using MKU.Scripts.Singletons;
 using UnityEngine;
-using CharacterController = MKU.Scripts.Character.CharacterController;
+using MKU.Scripts.CharacterSystem;
 
 namespace MKU.Scripts.Abillity
 {
@@ -21,8 +21,8 @@ namespace MKU.Scripts.Abillity
 
         public override void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
         {
-            if (Singleton.Instance.controller.isMoving)animator.SetBool(states.Walk.ToString(), Singleton.Instance.controller.isMoving);
-            if (Singleton.Instance.controller.isRunning)animator.SetBool(states.Run.ToString(), Singleton.Instance.controller.isRunning);
+            if (Singleton.Instance._charController.isMoving)animator.SetBool(states.Walk.ToString(), Singleton.Instance._charController.isMoving);
+            if (Singleton.Instance._charController.isRunning)animator.SetBool(states.Run.ToString(), Singleton.Instance._charController.isRunning);
             abillity.OnStateUpdate(animator, stateInfo, layerIndex);
         }
 

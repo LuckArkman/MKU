@@ -1,0 +1,41 @@
+﻿namespace MKU.Scripts.Enums
+{
+    public enum ActionCode
+    {
+        None = 0,
+        Hunter = 1,
+        Collect = 2,
+        Dungeon = 3,
+        Use = 4,
+        User = 5,
+        Consume = 6,
+        Equip = 7,
+        JoinGroup = 8,
+        JoinLobby = 9,
+        CreateGroup = 10,
+        Move = 11,
+        JoinRoom = 12,
+        NotJoinRoom = 13,
+        UserJoinRoom = 14,
+        CreateRoom = 15,
+        Login = 16,
+        Register = 17,
+        RegisterWalletAddress = 18,
+        Disconnect = 19,
+        Talk = 20,
+        UserId = 21,
+        CollectXP = 22,
+        CollectLevelUp = 23,
+        Inventory = 24,
+        Quest = 25,
+        PullQuest = 26,
+        PushQuest = 27,
+        MessageServer = 28,
+        NecessaryQuest = 29,
+        AccessKey = 30,
+        InsertAc = 31,
+        GetAc = 32,
+        Transference = 33,
+        Return = 34
+    }
+}
