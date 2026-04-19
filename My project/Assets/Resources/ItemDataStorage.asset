@@ -1,0 +1,6573 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d9348141d9aadc4fa09a35e36cb2467, type: 3}
+  m_Name: ItemDataStorage
+  m_EditorClassIdentifier: 
+  item_equipment_set:
+  - m_Name: Bow 2001
+    item_Name: Bow
+    item_Type: 4
+    description: Basic bow.
+    item_ID: 2001
+    item_Img: {fileID: 21300000, guid: 77a664949d7d5d04a88ad6671cc37866, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 1
+    equipment_Type: 64
+    require_Class: 1
+    prefab: {fileID: 1423920014034726233, guid: bdfd764f9cb0a014a8e291171102b365, type: 3}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 0
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 15
+    defense: 0
+    intelligence: 0
+    luck: 0
+    strength: 0
+    vitality: 0
+    levelToEquip: 1
+    refine: 1
+    star: 0
+    stamina: 2600
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Compound Bow  2002
+    item_Name: 'Compound Bow '
+    item_Type: 4
+    description: Average bow, mostly used for hunting small animals.
+    item_ID: 2002
+    item_Img: {fileID: 21300000, guid: 2c33da66d1d21e34e85ab61ec0a0b467, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 1
+    equipment_Type: 64
+    require_Class: 1
+    prefab: {fileID: 8502354637045378551, guid: 571cc246ac1757e4b894bff3cb29f4e1, type: 3}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 0
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 29
+    defense: 0
+    intelligence: 0
+    luck: 0
+    strength: 0
+    vitality: 0
+    levelToEquip: 8
+    refine: 0
+    star: 0
+    stamina: 2603
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Land Bow 2003
+    item_Name: Land Bow
+    item_Type: 4
+    description: A perfectly balanced bow.
+    item_ID: 2003
+    item_Img: {fileID: 21300000, guid: 50e4a80a484f88440a632b15ad35703e, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 1
+    equipment_Type: 64
+    require_Class: 1
+    prefab: {fileID: 3239713007163167006, guid: d0d77d89e9a1f564fbe29406edee395f, type: 3}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 0
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 105
+    defense: 0
+    intelligence: 0
+    luck: 0
+    strength: 0
+    vitality: 0
+    levelToEquip: 20
+    refine: 1
+    star: 1
+    stamina: 2643
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Moon Bow 2004
+    item_Name: Moon Bow
+    item_Type: 4
+    description: A bow made of moonstone that has a built-in blade, which allows
+      its owner to use it to block enemy attacks..
+    item_ID: 2004
+    item_Img: {fileID: 21300000, guid: 9b42ea2004a642043927d68bb4062880, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 1
+    equipment_Type: 64
+    require_Class: 1
+    prefab: {fileID: 7183166419956366837, guid: dbe769f88f070084b931355e8df3c746, type: 3}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 1
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 0
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 170
+    defense: 2
+    intelligence: 0
+    luck: 0
+    strength: 0
+    vitality: 0
+    levelToEquip: 35
+    refine: 5
+    star: 1
+    stamina: 102688
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Arrow 2005
+    item_Name: Arrow
+    item_Type: 4
+    description: Common Arrow
+    item_ID: 2005
+    item_Img: {fileID: 21300000, guid: 5747a8586b9573a42874065fba4d9ad9, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 1
+    equipment_Type: 128
+    require_Class: 1
+    prefab: {fileID: 6168280401952039820, guid: 719ca9b291ef4cf4b834c618df671f36, type: 3}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 0
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 0
+    defense: 0
+    intelligence: 0
+    luck: 0
+    strength: 0
+    vitality: 0
+    levelToEquip: 1
+    refine: 1
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Sword 2006
+    item_Name: Sword
+    item_Type: 4
+    description: Simple, one-handed sword.
+    item_ID: 2006
+    item_Img: {fileID: 21300000, guid: 51035064f3c50ee42bfbd8bfbd2cfd83, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 1
+    equipment_Type: 128
+    require_Class: 2
+    prefab: {fileID: 8071391412235829537, guid: 7f00628b87a0b0c459e774be2c7e7f7d, type: 3}
+    prefab_extra: {fileID: 8071391412235829537, guid: 4331800bcfcdad845a3469ecc027d6f8, type: 3}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 0
+    mp: 0
+    atk: 25
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 0
+    defense: 0
+    intelligence: 0
+    luck: 0
+    strength: 0
+    vitality: 0
+    levelToEquip: 1
+    refine: 1
+    star: 0
+    stamina: 2600
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Ornate Sword  2007
+    item_Name: 'Ornate Sword '
+    item_Type: 4
+    description: Sword with a beautiful transparent blade.
+    item_ID: 2007
+    item_Img: {fileID: 21300000, guid: c3400961bd01b2248b37e0d7acb1d03d, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 1
+    equipment_Type: 128
+    require_Class: 2
+    prefab: {fileID: 7647455302448245053, guid: 91fc29f6205fd04408cfbe96d75e0535, type: 3}
+    prefab_extra: {fileID: 7647455302448245053, guid: 1838a2d0503050b4e98147672ea6c2bd, type: 3}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 0
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 0
+    defense: 0
+    intelligence: 0
+    luck: 0
+    strength: 84
+    vitality: 0
+    levelToEquip: 8
+    refine: 1
+    star: 1
+    stamina: 2621
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Saber Of Death 2008
+    item_Name: Saber Of Death
+    item_Type: 4
+    description: If your enemies survive, all they will remember is the savage slash
+      of this scarlet sword.
+    item_ID: 2008
+    item_Img: {fileID: 21300000, guid: 2722aec7b6f7b5d4fa0888ec18e1f253, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 1
+    equipment_Type: 128
+    require_Class: 2
+    prefab: {fileID: 1078112078387951849, guid: 9b7b314a5ea643141b874f6507bcb80f, type: 3}
+    prefab_extra: {fileID: 1078112078387951849, guid: 7b8236f7eaaaadc41b7800c99ac85391, type: 3}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 0
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 0
+    defense: 0
+    intelligence: 0
+    luck: 0
+    strength: 145
+    vitality: 0
+    levelToEquip: 20
+    refine: 1
+    star: 1
+    stamina: 2661
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Violet Terror 2009
+    item_Name: Violet Terror
+    item_Type: 4
+    description: A two-handed violet weapon created from the twin blades.
+    item_ID: 2009
+    item_Img: {fileID: 21300000, guid: 45e1a89151bbd1e45bc80c32dd709f92, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 1
+    equipment_Type: 128
+    require_Class: 2
+    prefab: {fileID: 1649265980102812234, guid: da49acaa93c6ba044bbfd3cb6379492d, type: 3}
+    prefab_extra: {fileID: 1649265980102812234, guid: 2665a68c17590cb469f55406dd7a1c67, type: 3}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 0
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 0
+    defense: 0
+    intelligence: 0
+    luck: 0
+    strength: 275
+    vitality: 0
+    levelToEquip: 35
+    refine: 1
+    star: 1
+    stamina: 2716
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Peak 2010
+    item_Name: Peak
+    item_Type: 4
+    description: Typical infantry spear.
+    item_ID: 2010
+    item_Img: {fileID: 21300000, guid: e5470feeed634b247ab0c75451477ffd, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 1
+    equipment_Type: 128
+    require_Class: 3
+    prefab: {fileID: 1139733954394200819, guid: 7a99301c4a456b94d98293349e59e8e5, type: 3}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 0
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 0
+    defense: 0
+    intelligence: 0
+    luck: 0
+    strength: 60
+    vitality: 0
+    levelToEquip: 1
+    refine: 1
+    star: 0
+    stamina: 2600
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Gae Bolg 2011
+    item_Name: Gae Bolg
+    item_Type: 4
+    description: A spear, made from the body of a gigantic dead sea creature.
+    item_ID: 2011
+    item_Img: {fileID: 21300000, guid: b224ac6d1de44d34f8603e576a6b94d1, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 1
+    equipment_Type: 128
+    require_Class: 3
+    prefab: {fileID: 5963581347629058556, guid: 198ade9a67b2bbc4884a6b091e4ecd91, type: 3}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 0
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 0
+    defense: 0
+    intelligence: 0
+    luck: 0
+    strength: 100
+    vitality: 0
+    levelToEquip: 10
+    refine: 1
+    star: 1
+    stamina: 2630
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Zephyr 2012
+    item_Name: Zephyr
+    item_Type: 4
+    description: A spear with the Wind property.
+    item_ID: 2012
+    item_Img: {fileID: 21300000, guid: 7b32ba873dcf4084da9315f34708af63, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 1
+    equipment_Type: 128
+    require_Class: 3
+    prefab: {fileID: 8546640602991472193, guid: 5161a15ac2c9136428256e3c2be9d901, type: 3}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 0
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 0
+    defense: 0
+    intelligence: 0
+    luck: 0
+    strength: 170
+    vitality: 0
+    levelToEquip: 20
+    refine: 1
+    star: 1
+    stamina: 2670
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Gungnir 2013
+    item_Name: Gungnir
+    item_Type: 4
+    description: A legendary spear that is famous for never missing its mark.
+    item_ID: 2013
+    item_Img: {fileID: 21300000, guid: 9d3b0997ea5ac8242808e7edef66f37f, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 1
+    equipment_Type: 128
+    require_Class: 3
+    prefab: {fileID: 641142530750650198, guid: f78b7bedb2bcec8478cbb03a22956d42, type: 3}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 0
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 0
+    defense: 0
+    intelligence: 0
+    luck: 0
+    strength: 250
+    vitality: 0
+    levelToEquip: 35
+    refine: 1
+    star: 1
+    stamina: 2725
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Dead Tree Staff 2014
+    item_Name: Dead Tree Staff
+    item_Type: 4
+    description: A staff made of magic wood.
+    item_ID: 2014
+    item_Img: {fileID: 21300000, guid: 1a7e6fb84d350c543a01df03a6085e2c, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 1
+    equipment_Type: 128
+    require_Class: 4
+    prefab: {fileID: 1775181536364857903, guid: 5d5f5fb76518c8544b71748ae9101b68, type: 3}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 0
+    mp: 0
+    atk: 10
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 0
+    defense: 0
+    intelligence: 0
+    luck: 0
+    strength: 0
+    vitality: 0
+    levelToEquip: 1
+    refine: 1
+    star: 1
+    stamina: 2600
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Survivor's Rod 2015
+    item_Name: Survivor's Rod
+    item_Type: 4
+    description: A staff developed by the joint effort of the Mages Guild.
+    item_ID: 2015
+    item_Img: {fileID: 21300000, guid: 50b485cd883f4424793a0b485c26327e, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 1
+    equipment_Type: 128
+    require_Class: 4
+    prefab: {fileID: 1121851556478719211, guid: eef8071b384fc1744a4dbd0c17a74324, type: 3}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 0
+    mp: 0
+    atk: 50
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 0
+    defense: 0
+    intelligence: 0
+    luck: 0
+    strength: 0
+    vitality: 0
+    levelToEquip: 8
+    refine: 1
+    star: 1
+    stamina: 2621
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Mind Eraser 2016
+    item_Name: Mind Eraser
+    item_Type: 4
+    description: A staff that mentally distracts enemies.
+    item_ID: 2016
+    item_Img: {fileID: 21300000, guid: 4aab21210c60f974ead7262748039ce3, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 1
+    equipment_Type: 128
+    require_Class: 4
+    prefab: {fileID: 5347646181114277235, guid: a696f35bb3d8bea4187f1f80e2b580e9, type: 3}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 0
+    mp: 0
+    atk: 80
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 0
+    defense: 0
+    intelligence: 0
+    luck: 0
+    strength: 0
+    vitality: 0
+    levelToEquip: 20
+    refine: 1
+    star: 1
+    stamina: 2661
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Cursed Stone Staff 2017
+    item_Name: Cursed Stone Staff
+    item_Type: 4
+    description: Staff made of gold with a whip attached to its staff.
+    item_ID: 2017
+    item_Img: {fileID: 21300000, guid: 790afb390d69bae4591b92df761f5606, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 1
+    equipment_Type: 128
+    require_Class: 4
+    prefab: {fileID: 8873125716565503470, guid: 0c9776cd9e828354d993e467cc09e9ab, type: 3}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 0
+    mp: 0
+    atk: 100
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 0
+    defense: 0
+    intelligence: 0
+    luck: 0
+    strength: 0
+    vitality: 0
+    levelToEquip: 35
+    refine: 1
+    star: 1
+    stamina: 2716
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Magic Vembrassa 2018
+    item_Name: Magic Vembrassa
+    item_Type: 4
+    description: Training Shield for War.
+    item_ID: 2018
+    item_Img: {fileID: 21300000, guid: ff7a52b5c6a2c0849b078c8c573cf23d, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 1
+    equipment_Type: 64
+    require_Class: 6
+    prefab: {fileID: 4078275425532931974, guid: 2d94351c83a13884f8410f6c861e1e22, type: 3}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 0
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 0
+    defense: 10
+    intelligence: 0
+    luck: 0
+    strength: 0
+    vitality: 0
+    levelToEquip: 1
+    refine: 1
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Cerulean Shield 2019
+    item_Name: Cerulean Shield
+    item_Type: 4
+    description: A shield that reflects the blue of the sky and enemy attacks.
+    item_ID: 2019
+    item_Img: {fileID: 21300000, guid: d5cd82164e7ba724a9305c62fa072c02, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 1
+    equipment_Type: 64
+    require_Class: 6
+    prefab: {fileID: 4959579333672966204, guid: 4b86d2655a5fa004dbd8789e3cf532e1, type: 3}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 0
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 0
+    defense: 50
+    intelligence: 0
+    luck: 0
+    strength: 0
+    vitality: 0
+    levelToEquip: 8
+    refine: 1
+    star: 1
+    stamina: 2621
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Shield of Deities 2020
+    item_Name: Shield of Deities
+    item_Type: 4
+    description: The divine touch has enchanted this shield, and whoever wields it
+      will be  untouchable by many evil deeds.
+    item_ID: 2020
+    item_Img: {fileID: 21300000, guid: c8e4b40882386564cbf10016f790b848, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 1
+    equipment_Type: 64
+    require_Class: 6
+    prefab: {fileID: 1482981523539625737, guid: 025db9f10b72fe34499d81498c2693ed, type: 3}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 0
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 0
+    defense: 100
+    intelligence: 0
+    luck: 0
+    strength: 0
+    vitality: 0
+    levelToEquip: 20
+    refine: 1
+    star: 1
+    stamina: 2661
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Colossal Shield 2021
+    item_Name: Colossal Shield
+    item_Type: 4
+    description: A massive shield that firmly withstands any type of attack.
+    item_ID: 2021
+    item_Img: {fileID: 21300000, guid: 803dbacab05cb584f9903869291f2352, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 1
+    equipment_Type: 64
+    require_Class: 6
+    prefab: {fileID: 7175919633924425160, guid: 16e2ea68c20ccb044a110d869682f3ad, type: 3}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 0
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 0
+    defense: 160
+    intelligence: 0
+    luck: 0
+    strength: 0
+    vitality: 0
+    levelToEquip: 35
+    refine: 1
+    star: 1
+    stamina: 2716
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Combat Ax 2022
+    item_Name: Combat Ax
+    item_Type: 4
+    description: Powerful one-handed ax which has seen many battles.
+    item_ID: 2022
+    item_Img: {fileID: 21300000, guid: a0dc9a3cc5f17bd448505d294061b0a5, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 1
+    equipment_Type: 128
+    require_Class: 5
+    prefab: {fileID: 1241466747685409582, guid: e99e6160eb134734494ee31a5ebbd051, type: 3}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 0
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 0
+    defense: 0
+    intelligence: 0
+    luck: 0
+    strength: 25
+    vitality: 0
+    levelToEquip: 1
+    refine: 1
+    star: 0
+    stamina: 2600
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Grievous 2023
+    item_Name: Grievous
+    item_Type: 4
+    description: This special ax was forged by a great blacksmith.
+    item_ID: 2023
+    item_Img: {fileID: 21300000, guid: 736ec287330a5a44db9600e17fac623f, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 1
+    equipment_Type: 128
+    require_Class: 5
+    prefab: {fileID: 1241466747685409582, guid: 1775b202706a50641b8afc0003b545ac, type: 3}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 0
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 0
+    defense: 0
+    intelligence: 0
+    luck: 0
+    strength: 75
+    vitality: 0
+    levelToEquip: 8
+    refine: 1
+    star: 1
+    stamina: 2621
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Military Padding 2024
+    item_Name: Military Padding
+    item_Type: 2
+    description: A vest sewn into an overcoat. The inhabitants of Mora call it the
+      'Military Pad'.
+    item_ID: 2024
+    item_Img: {fileID: 21300000, guid: fc67af836ef95354286eb19404849908, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 1
+    equipment_Type: 4
+    require_Class: 0
+    prefab: {fileID: 0}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 0
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 0
+    defense: 10
+    intelligence: 0
+    luck: 0
+    strength: 0
+    vitality: 0
+    levelToEquip: 1
+    refine: 0
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Padded Armor 2025
+    item_Name: Padded Armor
+    item_Type: 2
+    description: Medium armor, made of metal plates attached to quilted leather.
+    item_ID: 2025
+    item_Img: {fileID: 21300000, guid: dfb9e3588a9bf8b42ab2594c38f44f7e, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 1
+    equipment_Type: 4
+    require_Class: 0
+    prefab: {fileID: 0}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 180
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 0
+    defense: 35
+    intelligence: 0
+    luck: 0
+    strength: 0
+    vitality: 0
+    levelToEquip: 1
+    refine: 0
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Khalitzburg's Armor 2026
+    item_Name: Khalitzburg's Armor
+    item_Type: 2
+    description: This was the original armor worn by the greatest swordswoman who
+      lived in the ancient capital of Rune-Midgard. The captain of the Order of the
+      Khalitzburg was adept at using the rapier, but unfortunately ended up succumbing
+      to the Curse of Glast Heim, cast by the evil necromancer Valkyrie, Himelmez.
+    item_ID: 2026
+    item_Img: {fileID: 21300000, guid: 0e3aa57c959fb5c42a99f9ba81072cf7, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 1
+    equipment_Type: 4
+    require_Class: 0
+    prefab: {fileID: 0}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 1
+    hp: 0
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 0
+    defense: 15
+    intelligence: 0
+    luck: 0
+    strength: 0
+    vitality: 6
+    levelToEquip: 1
+    refine: 0
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Odin's Armor of Faith 2027
+    item_Name: Odin's Armor of Faith
+    item_Type: 2
+    description: An armor that possesses the Faith of the mighty god Odin.
+    item_ID: 2027
+    item_Img: {fileID: 21300000, guid: 996b3b0af8439db41af8c31f655d966b, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 1
+    equipment_Type: 4
+    require_Class: 0
+    prefab: {fileID: 0}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 0
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 4
+    defense: 39
+    intelligence: 4
+    luck: 4
+    strength: 4
+    vitality: 4
+    levelToEquip: 1
+    refine: 0
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Diabolus Armor 2028
+    item_Name: Diabolus Armor
+    item_Type: 2
+    description: An armor made of an unknown material that holds mysterious powers.
+    item_ID: 2028
+    item_Img: {fileID: 21300000, guid: fc3ca8d971d94164b8927c38db83403f, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 1
+    equipment_Type: 4
+    require_Class: 0
+    prefab: {fileID: 0}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 150
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 1
+    defense: 0
+    intelligence: 0
+    luck: 0
+    strength: 2
+    vitality: 0
+    levelToEquip: 1
+    refine: 0
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Astrea's Armor 2029
+    item_Name: Astrea's Armor
+    item_Type: 2
+    description: An armor made of a rare material that holds unimaginable powers.
+    item_ID: 2029
+    item_Img: {fileID: 21300000, guid: d85767941923eb24886776af5c537561, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 1
+    equipment_Type: 4
+    require_Class: 0
+    prefab: {fileID: 0}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 350
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 5
+    defense: 0
+    intelligence: 0
+    luck: 0
+    strength: 0
+    vitality: 0
+    levelToEquip: 1
+    refine: 0
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Aegir's Armor 2030
+    item_Name: Aegir's Armor
+    item_Type: 2
+    description: An armor forged by the legendary god of the oceans, Aegir. Beautifully
+      finished, they say it was forged for a mermaid, which may be true, because
+      despite being made of metal, you get the feeling that it wouldn't sink in water
+      and could be used for swimming easily.
+    item_ID: 2030
+    item_Img: {fileID: 21300000, guid: ab1248905bb7e7a46a8987e2144baa36, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 1
+    equipment_Type: 4
+    require_Class: 0
+    prefab: {fileID: 0}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 0
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 1
+    defense: 1
+    intelligence: 1
+    luck: 1
+    strength: 1
+    vitality: 1
+    levelToEquip: 1
+    refine: 0
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Red Dragon's Armor 2031
+    item_Name: Red Dragon's Armor
+    item_Type: 2
+    description: A powerful armor made from the scales and fangs of the Detardeurus.
+      Some say it was used by Dracula in one of the more recent remakes of his origin,
+      whatever that means.
+    item_ID: 2031
+    item_Img: {fileID: 21300000, guid: acf327b09f8af104ebd93c555aea5527, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 1
+    equipment_Type: 4
+    require_Class: 0
+    prefab: {fileID: 0}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 0
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 1
+    defense: 5
+    intelligence: 1
+    luck: 11
+    strength: 1
+    vitality: 1
+    levelToEquip: 1
+    refine: 0
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Hero's Armor 2032
+    item_Name: Hero's Armor
+    item_Type: 2
+    description: 'A unique armor, forged especially for those who prefer fate to
+      decide for them.   '
+    item_ID: 2032
+    item_Img: {fileID: 21300000, guid: 6e7dd705ac7e6d84b8c024863c2a6deb, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 1
+    equipment_Type: 4
+    require_Class: 5
+    prefab: {fileID: 0}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 1
+    hp: 0
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 0
+    defense: 50
+    intelligence: 0
+    luck: 0
+    strength: 0
+    vitality: 2
+    levelToEquip: 1
+    refine: 1
+    star: 1
+    stamina: 2621
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Sage Hero's Armor 2033
+    item_Name: Sage Hero's Armor
+    item_Type: 2
+    description: A unique armor, specially forged for those who aim for the intellect
+      necessary to overcome the strength of their enemies.
+    item_ID: 2033
+    item_Img: {fileID: 21300000, guid: da0d5f681e5ef2c48a73342ecd954958, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 1
+    equipment_Type: 4
+    require_Class: 0
+    prefab: {fileID: 0}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 1
+    strengthPercent: 0
+    vitalityPercent: 1
+    hp: 0
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 0
+    defense: 50
+    intelligence: 0
+    luck: 2
+    strength: 0
+    vitality: 30
+    levelToEquip: 1
+    refine: 0
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Forest Robe 2034
+    item_Name: Forest Robe
+    item_Type: 2
+    description: The fact that this robe model is still used centuries after its
+      conception is undeniable proof of just how timeless its design is.
+    item_ID: 2034
+    item_Img: {fileID: 21300000, guid: c6e080365fad8954f9cc186def451beb, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 1
+    equipment_Type: 8
+    require_Class: 0
+    prefab: {fileID: 0}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 0
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 10
+    defense: 50
+    intelligence: 0
+    luck: 0
+    strength: 0
+    vitality: 0
+    levelToEquip: 1
+    refine: 0
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Darkness Robe  2035
+    item_Name: 'Darkness Robe '
+    item_Type: 2
+    description: A robe that once helped the god Odin escape a fatal threat.
+    item_ID: 2035
+    item_Img: {fileID: 21300000, guid: fc67f2ec795d583419860eb265a3a528, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 1
+    equipment_Type: 2
+    require_Class: 0
+    prefab: {fileID: 0}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 0
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 25
+    defense: 150
+    intelligence: 0
+    luck: 0
+    strength: 0
+    vitality: 0
+    levelToEquip: 1
+    refine: 0
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Glorious Robe 2036
+    item_Name: Glorious Robe
+    item_Type: 2
+    description: Inherited from the northern tribes, it has heavenly power between
+      each line of its crafting.
+    item_ID: 2036
+    item_Img: {fileID: 21300000, guid: 76ee8f6bfdd0f3c48978977bc3ac0772, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 1
+    equipment_Type: 8
+    require_Class: 0
+    prefab: {fileID: 0}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 0
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 160
+    defense: 0
+    intelligence: 10
+    luck: 0
+    strength: 0
+    vitality: 0
+    levelToEquip: 1
+    refine: 0
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Cloak of Shadows 2037
+    item_Name: Cloak of Shadows
+    item_Type: 2
+    description: Provides protection from the dark world to the wearer
+    item_ID: 2037
+    item_Img: {fileID: 21300000, guid: 2242d39e6f0aaae4cbb21d7ec9d21505, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 1
+    equipment_Type: 8
+    require_Class: 0
+    prefab: {fileID: 0}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 0
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 160
+    defense: 50
+    intelligence: 10
+    luck: 0
+    strength: 0
+    vitality: 0
+    levelToEquip: 1
+    refine: 0
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Cloak of wisdom 2038
+    item_Name: Cloak of wisdom
+    item_Type: 2
+    description: From the mystical realm of the elves, used by the great sages to
+      speak with the gods
+    item_ID: 2038
+    item_Img: {fileID: 21300000, guid: 473028f28bb74804ea7b13bf28bd87df, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 1
+    equipment_Type: 8
+    require_Class: 0
+    prefab: {fileID: 0}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 0
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 30
+    defense: 150
+    intelligence: 15
+    luck: 0
+    strength: 0
+    vitality: 0
+    levelToEquip: 1
+    refine: 0
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Gold cloak 2039
+    item_Name: Gold cloak
+    item_Type: 2
+    description: Only the most successful royal warriors are worthy of owning this
+      rare and valuable item.
+    item_ID: 2039
+    item_Img: {fileID: 21300000, guid: a5e709ae5c9a3c342a50fc6bd1136462, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 1
+    equipment_Type: 8
+    require_Class: 0
+    prefab: {fileID: 0}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 0
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 30
+    defense: 180
+    intelligence: 10
+    luck: 0
+    strength: 0
+    vitality: 0
+    levelToEquip: 1
+    refine: 0
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Scarlet robe 2040
+    item_Name: Scarlet robe
+    item_Type: 2
+    description: legend has it that the red in its color is not an ink, but the blood
+      of enemies slain by its possessor in over 1000 lives
+    item_ID: 2040
+    item_Img: {fileID: 21300000, guid: 92a84042a77ab3b47af778277ba24a46, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 1
+    equipment_Type: 2
+    require_Class: 0
+    prefab: {fileID: 0}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 1
+    hp: 0
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 30
+    defense: 100
+    intelligence: 15
+    luck: 0
+    strength: 0
+    vitality: 10
+    levelToEquip: 1
+    refine: 0
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Wanderer Boots 2041
+    item_Name: Wanderer Boots
+    item_Type: 2
+    description: Thick leather shoes that cover part of the leg.
+    item_ID: 2041
+    item_Img: {fileID: 21300000, guid: 1d0dae2f3153a5c4e8c7e66682be50b3, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 1
+    equipment_Type: 16
+    require_Class: 0
+    prefab: {fileID: 0}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 0
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 1
+    atkSpd: 0
+    agility: 1
+    defense: 0
+    intelligence: 0
+    luck: 0
+    strength: 0
+    vitality: 0
+    levelToEquip: 1
+    refine: 0
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Improved Boots 2042
+    item_Name: Improved Boots
+    item_Type: 2
+    description: Thick leather shoes that cover part of the leg. It is edged with
+      the white fur of a Lunatic. It's pretty heavy, so only those with combat training
+      can use them.
+    item_ID: 2042
+    item_Img: {fileID: 21300000, guid: cb2a2afa3dbfd434a801e33807e64212, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 1
+    equipment_Type: 16
+    require_Class: 0
+    prefab: {fileID: 0}
+    prefab_extra: {fileID: 0}
+    hpPercent: 1
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 1
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 3
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 5
+    atkSpd: 0
+    agility: 0
+    defense: 0
+    intelligence: 0
+    luck: 0
+    strength: 0
+    vitality: 0
+    levelToEquip: 1
+    refine: 0
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Ancestral Boots 2043
+    item_Name: Ancestral Boots
+    item_Type: 2
+    description: A pair of powerful shoes. Its energies are capable of awakening
+      mysterious properties in ancient weapons.
+    item_ID: 2043
+    item_Img: {fileID: 21300000, guid: 20e4a0ab999dd344ea4214c0ec5b03f5, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 1
+    equipment_Type: 16
+    require_Class: 0
+    prefab: {fileID: 0}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 50
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 0
+    defense: 0
+    intelligence: 0
+    luck: 5
+    strength: 0
+    vitality: 0
+    levelToEquip: 1
+    refine: 0
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Iron Boots 2044
+    item_Name: Iron Boots
+    item_Type: 2
+    description: Solid and heavy shoes
+    item_ID: 2044
+    item_Img: {fileID: 21300000, guid: b237548fe5f7e8641952a52996d0d7cf, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 1
+    equipment_Type: 16
+    require_Class: 0
+    prefab: {fileID: 0}
+    prefab_extra: {fileID: 0}
+    hpPercent: 1
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 1
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 5
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 5
+    atkSpd: 0
+    agility: 0
+    defense: 0
+    intelligence: 5
+    luck: 0
+    strength: 0
+    vitality: 0
+    levelToEquip: 1
+    refine: 0
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Gold Boots 2045
+    item_Name: Gold Boots
+    item_Type: 2
+    description: Possessions of Airplane Captain Ferlooon.
+    item_ID: 2045
+    item_Img: {fileID: 21300000, guid: 56ccf7de2e9bd05408a22cf327badeaa, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 1
+    equipment_Type: 16
+    require_Class: 0
+    prefab: {fileID: 0}
+    prefab_extra: {fileID: 0}
+    hpPercent: 1
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 1
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 3
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 5
+    agility: 1
+    defense: 0
+    intelligence: 0
+    luck: 0
+    strength: 0
+    vitality: 0
+    levelToEquip: 1
+    refine: 0
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Nightmare Boots 2046
+    item_Name: Nightmare Boots
+    item_Type: 2
+    description: Ominous boots, emitting Bangungot's vengeance and his hatred towards
+      humans
+    item_ID: 2046
+    item_Img: {fileID: 21300000, guid: dc01a7ac31107784baf8bee375ef3736, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 1
+    equipment_Type: 16
+    require_Class: 0
+    prefab: {fileID: 0}
+    prefab_extra: {fileID: 0}
+    hpPercent: 1
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 1
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 15
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 15
+    atkSpd: 0
+    agility: 0
+    defense: 0
+    intelligence: 1
+    luck: 3
+    strength: 0
+    vitality: 0
+    levelToEquip: 1
+    refine: 0
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Jurassic Boots 2047
+    item_Name: Jurassic Boots
+    item_Type: 2
+    description: Boots made of thick, tough leather, worthy of the colossal creatures
+      that inhabited the world.
+    item_ID: 2047
+    item_Img: {fileID: 21300000, guid: 5374ab0446fa2d94e97008a4e1a0ee2f, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 1
+    equipment_Type: 16
+    require_Class: 0
+    prefab: {fileID: 0}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 1
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 1
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 500
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 15
+    atkSpd: 0
+    agility: 0
+    defense: 0
+    intelligence: 5
+    luck: 0
+    strength: 0
+    vitality: 0
+    levelToEquip: 1
+    refine: 0
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Temporal Boots 2048
+    item_Name: Temporal Boots
+    item_Type: 2
+    description: Amazing boots that must have been created a long time ago but have
+      never been worn.
+    item_ID: 2048
+    item_Img: {fileID: 21300000, guid: 9975262ad9c01e341b62047d973091f2, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 1
+    equipment_Type: 16
+    require_Class: 0
+    prefab: {fileID: 0}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 300
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 15
+    defense: 0
+    intelligence: 5
+    luck: 0
+    strength: 0
+    vitality: 0
+    levelToEquip: 1
+    refine: 0
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Winged Boots 2049
+    item_Name: Winged Boots
+    item_Type: 2
+    description: Boots made with beautiful silver jewels on each foot. Their style
+      might be considered weird by some, but it's best to think carefully before
+      ignoring them.
+    item_ID: 2049
+    item_Img: {fileID: 21300000, guid: 11d31523b1ee9d141bf2e2b003ddc923, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 1
+    equipment_Type: 16
+    require_Class: 0
+    prefab: {fileID: 0}
+    prefab_extra: {fileID: 0}
+    hpPercent: 1
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 1
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 1
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 3
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 20
+    atkSpd: 0
+    agility: 0
+    defense: 0
+    intelligence: 15
+    luck: 10
+    strength: 0
+    vitality: 0
+    levelToEquip: 1
+    refine: 0
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Archangel Reincarnation 2050
+    item_Name: Archangel Reincarnation
+    item_Type: 2
+    description: Description Here
+    item_ID: 2050
+    item_Img: {fileID: 21300000, guid: 7dfc66e9f36883446a574da586ab5647, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 1
+    equipment_Type: 16
+    require_Class: 0
+    prefab: {fileID: 0}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 1
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 500
+    mp: 0
+    atk: 20
+    def: 0
+    hit: 0
+    spd: 35
+    atkSpd: 0
+    agility: 0
+    defense: 0
+    intelligence: 10
+    luck: 0
+    strength: 0
+    vitality: 0
+    levelToEquip: 1
+    refine: 0
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Fuzzy Gloves 2051
+    item_Name: Fuzzy Gloves
+    item_Type: 2
+    description: ' A pair of leather gloves. It will keep your hands and skills warm.'
+    item_ID: 2051
+    item_Img: {fileID: 21300000, guid: 3c8f64102e20eb64583ddef04c223c08, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 1
+    equipment_Type: 512
+    require_Class: 0
+    prefab: {fileID: 0}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 100
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 5
+    defense: 0
+    intelligence: 0
+    luck: 0
+    strength: 0
+    vitality: 0
+    levelToEquip: 1
+    refine: 0
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Dark Gloves 2052
+    item_Name: Dark Gloves
+    item_Type: 2
+    description: These gloves are used as a complement to the handling of conventional
+      weapons.
+    item_ID: 2052
+    item_Img: {fileID: 21300000, guid: 1adabcc0ca2117c41b119193cb7510a1, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 1
+    equipment_Type: 512
+    require_Class: 0
+    prefab: {fileID: 0}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 0
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 1
+    defense: 0
+    intelligence: 1
+    luck: 0
+    strength: 1
+    vitality: 0
+    levelToEquip: 1
+    refine: 0
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Celestial Alchemist's Gloves 2053
+    item_Name: Celestial Alchemist's Gloves
+    item_Type: 2
+    description: A pair of blue gloves created by the Federal Alchemist, Roy Ford,
+      especially for spells.
+    item_ID: 2053
+    item_Img: {fileID: 21300000, guid: 9cc48fd4cef4c984fbec010963da8fab, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 1
+    equipment_Type: 512
+    require_Class: 0
+    prefab: {fileID: 0}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 1
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 150
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 7
+    defense: 0
+    intelligence: 0
+    luck: 15
+    strength: 0
+    vitality: 0
+    levelToEquip: 1
+    refine: 0
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Fire Alchemist's Gloves 2054
+    item_Name: Fire Alchemist's Gloves
+    item_Type: 2
+    description: 'This pair of red gloves were created by the Federal Alchemist.
+      They say she contains spirits of revenge. '
+    item_ID: 2054
+    item_Img: {fileID: 21300000, guid: a9437d354b39dd140aa99b92eee3cd18, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 1
+    equipment_Type: 512
+    require_Class: 0
+    prefab: {fileID: 0}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 1
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 150
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 7
+    defense: 0
+    intelligence: 0
+    luck: 15
+    strength: 0
+    vitality: 0
+    levelToEquip: 1
+    refine: 0
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Eye Stone Ring 2055
+    item_Name: Eye Stone Ring
+    item_Type: 8
+    description: 'A ring with a trapped soul that watches everything around it. '
+    item_ID: 2055
+    item_Img: {fileID: 21300000, guid: aa7e0dd9d73bccf49b882417ec85ba57, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 1
+    equipment_Type: 32
+    require_Class: 0
+    prefab: {fileID: 0}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 0
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 0
+    defense: 0
+    intelligence: 25
+    luck: 2
+    strength: 0
+    vitality: 0
+    levelToEquip: 1
+    refine: 0
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: King's Ring 2056
+    item_Name: King's Ring
+    item_Type: 8
+    description: A ring on which mysterious symbols are engraved. Keep the Secrets
+      of the thousand ancient kings.
+    item_ID: 2056
+    item_Img: {fileID: 21300000, guid: ba30564812a954e479f44bb7233275bd, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 1
+    equipment_Type: 32
+    require_Class: 0
+    prefab: {fileID: 0}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 1
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 100
+    mp: 0
+    atk: 3
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 0
+    defense: 0
+    intelligence: 0
+    luck: 0
+    strength: 0
+    vitality: 0
+    levelToEquip: 1
+    refine: 0
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: ' Morpheus''s Ring 2057'
+    item_Name: ' Morpheus''s Ring'
+    item_Type: 8
+    description: A enchanted ring with the power of the Stone of Destiny, which is
+      one of the four keys to the seal that binds Morpheus.
+    item_ID: 2057
+    item_Img: {fileID: 21300000, guid: 9a5b58557dd63a8429afa7f660ef58a0, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 1
+    equipment_Type: 32
+    require_Class: 0
+    prefab: {fileID: 0}
+    prefab_extra: {fileID: 0}
+    hpPercent: 1
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 5
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 0
+    defense: 0
+    intelligence: 1
+    luck: 0
+    strength: 0
+    vitality: 5
+    levelToEquip: 1
+    refine: 0
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Forged Ring 2058
+    item_Name: Forged Ring
+    item_Type: 8
+    description: Small metal ring worn on the finger. Increases user strength.
+    item_ID: 2058
+    item_Img: {fileID: 21300000, guid: e9a93c0dac0f4c147acf60886e9b56a6, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 1
+    equipment_Type: 32
+    require_Class: 0
+    prefab: {fileID: 0}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 1
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 0
+    mp: 0
+    atk: 1
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 0
+    defense: 0
+    intelligence: 0
+    luck: 0
+    strength: 0
+    vitality: 0
+    levelToEquip: 1
+    refine: 0
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: ' Kvasir''s Ring 2059'
+    item_Name: ' Kvasir''s Ring'
+    item_Type: 8
+    description: Rumors say that this ring possesses the power of the great prophet
+      Kvasir. It has special healing powers.
+    item_ID: 2059
+    item_Img: {fileID: 21300000, guid: 4f2c8d9e4091905449d6d519eaef0d1c, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 1
+    equipment_Type: 32
+    require_Class: 0
+    prefab: {fileID: 0}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 1
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 30
+    mp: 0
+    atk: 5
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 0
+    defense: 0
+    intelligence: 0
+    luck: 0
+    strength: 0
+    vitality: 15
+    levelToEquip: 1
+    refine: 0
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Nab's Ring 2060
+    item_Name: Nab's Ring
+    item_Type: 8
+    description: This ring belongs to a legendary assassin
+    item_ID: 2060
+    item_Img: {fileID: 21300000, guid: f60dd778eec38cc4abd3023f02b3ab16, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 1
+    equipment_Type: 32
+    require_Class: 0
+    prefab: {fileID: 0}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 0
+    mp: 0
+    atk: 10
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 0
+    defense: 0
+    intelligence: 20
+    luck: 0
+    strength: 0
+    vitality: 0
+    levelToEquip: 1
+    refine: 0
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: ' Magic Reinforcement Ring 2061'
+    item_Name: ' Magic Reinforcement Ring'
+    item_Type: 8
+    description: Ring developed in Geffen to improve the wearer's mental effort.
+    item_ID: 2061
+    item_Img: {fileID: 21300000, guid: f82191d83076b9749801d1193615692d, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 1
+    equipment_Type: 32
+    require_Class: 0
+    prefab: {fileID: 0}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 0
+    mp: 0
+    atk: 20
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 0
+    defense: 0
+    intelligence: 10
+    luck: 0
+    strength: 0
+    vitality: 0
+    levelToEquip: 1
+    refine: 0
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Hunter's Ring 2062
+    item_Name: Hunter's Ring
+    item_Type: 8
+    description: A ring with very specific powers.
+    item_ID: 2062
+    item_Img: {fileID: 21300000, guid: 600cb0c7ca696894c98cefbee8cc0334, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 1
+    equipment_Type: 32
+    require_Class: 0
+    prefab: {fileID: 0}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 0
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 0
+    defense: 0
+    intelligence: 0
+    luck: 0
+    strength: 0
+    vitality: 0
+    levelToEquip: 1
+    refine: 0
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Imperial Ring 2063
+    item_Name: Imperial Ring
+    item_Type: 8
+    description: A beautiful ring engraved with the Rune-Midgard emblem on its exterior.
+      Gifted to those who contribute to the protection of the nation.
+    item_ID: 2063
+    item_Img: {fileID: 21300000, guid: 2cf7b9828ed3e8d43abe0fe873c2c358, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 1
+    equipment_Type: 32
+    require_Class: 0
+    prefab: {fileID: 0}
+    prefab_extra: {fileID: 0}
+    hpPercent: 1
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 3
+    mp: 0
+    atk: 15
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 0
+    defense: 0
+    intelligence: 1
+    luck: 0
+    strength: 1
+    vitality: 0
+    levelToEquip: 1
+    refine: 0
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Dark Ring 2064
+    item_Name: Dark Ring
+    item_Type: 8
+    description: Adorned with flame and a beautiful, rare red orb, it is even more
+      powerful in the right hands.
+    item_ID: 2064
+    item_Img: {fileID: 21300000, guid: b8c5efc0f89aa544cb3dee093258c7b3, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 1
+    equipment_Type: 32
+    require_Class: 0
+    prefab: {fileID: 0}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 1
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 1
+    luckPercent: 1
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 0
+    mp: 0
+    atk: 2
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 0
+    defense: 0
+    intelligence: 5
+    luck: 5
+    strength: 0
+    vitality: 0
+    levelToEquip: 1
+    refine: 0
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Orc Leader Mask 2065
+    item_Name: Orc Leader Mask
+    item_Type: 2
+    description: Forged from an epic struggle between man and beast.
+    item_ID: 2065
+    item_Img: {fileID: 21300000, guid: 81c4d3156a2490f488c0f1f4c482daf8, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 1
+    equipment_Type: 2
+    require_Class: 0
+    prefab: {fileID: 1039582302706807759, guid: d83408cd12da60e4892f31f2c1c65703, type: 3}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 1
+    strengthPercent: 0
+    vitalityPercent: 1
+    hp: 0
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 0
+    defense: 150
+    intelligence: 0
+    luck: 5
+    strength: 0
+    vitality: 30
+    levelToEquip: 0
+    refine: 0
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Battle ax 2066
+    item_Name: Battle ax
+    item_Type: 4
+    description: Sturdy ax, useful for taking down many enemies.
+    item_ID: 2066
+    item_Img: {fileID: 21300000, guid: ff7626bde298fb94c9caea121480bbbf, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 1
+    equipment_Type: 128
+    require_Class: 5
+    prefab: {fileID: 1241466747685409582, guid: 0f2664cd0c3159b4d882caa23171d2eb, type: 3}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 1
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 0
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 5
+    agility: 0
+    defense: 0
+    intelligence: 0
+    luck: 0
+    strength: 120
+    vitality: 0
+    levelToEquip: 20
+    refine: 1
+    star: 1
+    stamina: 2640
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Final Section 2067
+    item_Name: Final Section
+    item_Type: 4
+    description: An ax made of Arctic ice.
+    item_ID: 2067
+    item_Img: {fileID: 21300000, guid: 16e770a825db25445810aff432f88b6b, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 1
+    equipment_Type: 128
+    require_Class: 5
+    prefab: {fileID: 1241466747685409582, guid: 5b9f6c0d55002aa4ca1f78f6c058bee0, type: 3}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 0
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 0
+    defense: 0
+    intelligence: 0
+    luck: 0
+    strength: 180
+    vitality: 0
+    levelToEquip: 35
+    refine: 1
+    star: 1
+    stamina: 2660
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Ancient Crown 2068
+    item_Name: Ancient Crown
+    item_Type: 2
+    description: 
+    item_ID: 2068
+    item_Img: {fileID: 21300000, guid: 08c8ee90ef4f25645bdcf0acef768f20, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 1
+    equipment_Type: 2
+    require_Class: 0
+    prefab: {fileID: 3906492137535458891, guid: b4f20d42988ff4d488ed021bbe9ae10e, type: 3}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 1
+    intelligencePercent: 0
+    luckPercent: 1
+    strengthPercent: 0
+    vitalityPercent: 1
+    hp: 0
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 0
+    defense: 15
+    intelligence: 0
+    luck: 20
+    strength: 75
+    vitality: 0
+    levelToEquip: 0
+    refine: 0
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Feather Hat 2069
+    item_Name: Feather Hat
+    item_Type: 2
+    description: 
+    item_ID: 2069
+    item_Img: {fileID: 21300000, guid: 9bdf68a343e59df40800c999bbc49403, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 1
+    equipment_Type: 2
+    require_Class: 0
+    prefab: {fileID: 9049275402957961387, guid: 4aaeac77481e17c469eed395fffcb263, type: 3}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 1
+    strengthPercent: 0
+    vitalityPercent: 1
+    hp: 0
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 0
+    defense: 0
+    intelligence: 125
+    luck: 20
+    strength: 0
+    vitality: 30
+    levelToEquip: 0
+    refine: 0
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Festival Mask 2070
+    item_Name: Festival Mask
+    item_Type: 2
+    description: 
+    item_ID: 2070
+    item_Img: {fileID: 21300000, guid: 3683c6b856afe444aabff3cb17a5ac3d, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 1
+    equipment_Type: 2
+    require_Class: 0
+    prefab: {fileID: 5514114943629528128, guid: c551645b2be0af248938fde713a53b5c, type: 3}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 1
+    defensePercent: 1
+    intelligencePercent: 0
+    luckPercent: 1
+    strengthPercent: 0
+    vitalityPercent: 1
+    hp: 0
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 30
+    defense: 20
+    intelligence: 0
+    luck: 0
+    strength: 0
+    vitality: 30
+    levelToEquip: 0
+    refine: 0
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Vulkan Tribe Mask 2071
+    item_Name: Vulkan Tribe Mask
+    item_Type: 2
+    description: 
+    item_ID: 2071
+    item_Img: {fileID: 21300000, guid: 59bbc6c73829f98489d8df5e860bf7eb, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 1
+    equipment_Type: 2
+    require_Class: 0
+    prefab: {fileID: 3216661279499342280, guid: 50bc030fcb171a54cae8c3bfc39f1dbf, type: 3}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 1
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 1
+    hp: 0
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 0
+    defense: 35
+    intelligence: 0
+    luck: 0
+    strength: 0
+    vitality: 45
+    levelToEquip: 0
+    refine: 0
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Tribal Mask 2072
+    item_Name: Tribal Mask
+    item_Type: 2
+    description: 
+    item_ID: 2072
+    item_Img: {fileID: 21300000, guid: 9fc5ce35983258242b2eeb70e199391f, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 1
+    equipment_Type: 2
+    require_Class: 0
+    prefab: {fileID: 5919321498510988358, guid: 2b313d07595f7564a85be896308a1c30, type: 3}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 1
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 1
+    hp: 0
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 0
+    defense: 65
+    intelligence: 0
+    luck: 0
+    strength: 0
+    vitality: 25
+    levelToEquip: 0
+    refine: 0
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Red Googles 2073
+    item_Name: Red Googles
+    item_Type: 2
+    description: 
+    item_ID: 2073
+    item_Img: {fileID: 21300000, guid: fef42a0f13b87814c8bc80059b292407, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 1
+    equipment_Type: 2
+    require_Class: 0
+    prefab: {fileID: 5213279147483059469, guid: 039a074e6a5adbf4e9c54be43ff52632, type: 3}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 0
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 0
+    defense: 0
+    intelligence: 0
+    luck: 0
+    strength: 0
+    vitality: 0
+    levelToEquip: 0
+    refine: 0
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Thunder Crown 2074
+    item_Name: Thunder Crown
+    item_Type: 2
+    description: 
+    item_ID: 2074
+    item_Img: {fileID: 21300000, guid: eff4429a29a561a41bcd77782b7f46de, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 1
+    equipment_Type: 2
+    require_Class: 0
+    prefab: {fileID: 5980688853180584912, guid: b5a198727641cf04095cd01be7992f62, type: 3}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 0
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 0
+    defense: 0
+    intelligence: 0
+    luck: 0
+    strength: 0
+    vitality: 0
+    levelToEquip: 0
+    refine: 0
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Merlorin Hat 2075
+    item_Name: Merlorin Hat
+    item_Type: 2
+    description: 
+    item_ID: 2075
+    item_Img: {fileID: 21300000, guid: 1cf33b4316fc5694a9b2985caee33b4e, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 1
+    equipment_Type: 2
+    require_Class: 4
+    prefab: {fileID: 4773870333012075321, guid: 061ef80dbb631d843acabe6e03c51cd4, type: 3}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 1
+    strengthPercent: 0
+    vitalityPercent: 1
+    hp: 0
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 0
+    defense: 0
+    intelligence: 150
+    luck: 10
+    strength: 0
+    vitality: 40
+    levelToEquip: 0
+    refine: 0
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Pickaxe L1 2076
+    item_Name: Pickaxe Apprentice
+    item_Type: 64
+    description: 
+    item_ID: 2076
+    item_Img: {fileID: 21300000, guid: b4f5ce8f207db2a479cae88fa4e76ce5, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 1
+    equipment_Type: 1024
+    require_Class: 0
+    prefab: {fileID: 5980688853180584912, guid: b5a198727641cf04095cd01be7992f62, type: 3}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 0
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 0
+    defense: 0
+    intelligence: 0
+    luck: 0
+    strength: 0
+    vitality: 0
+    levelToEquip: 0
+    refine: 1
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Pickaxe L2 2077
+    item_Name: Pickaxe Lunar
+    item_Type: 64
+    description: 
+    item_ID: 2077
+    item_Img: {fileID: 21300000, guid: 83190ce5a95fef348ac41d4a3e7d3d6e, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 1
+    equipment_Type: 1024
+    require_Class: 0
+    prefab: {fileID: 5980688853180584912, guid: b5a198727641cf04095cd01be7992f62, type: 3}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 0
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 0
+    defense: 0
+    intelligence: 0
+    luck: 0
+    strength: 0
+    vitality: 0
+    levelToEquip: 0
+    refine: 2
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Pickaxe L3 2078
+    item_Name: Pickaxe Mystical
+    item_Type: 64
+    description: 
+    item_ID: 2078
+    item_Img: {fileID: 21300000, guid: fa7d9ed4d7b88b44ebfa7d76e2f420b8, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 1
+    equipment_Type: 1024
+    require_Class: 0
+    prefab: {fileID: 5980688853180584912, guid: b5a198727641cf04095cd01be7992f62, type: 3}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 0
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 0
+    defense: 0
+    intelligence: 0
+    luck: 0
+    strength: 0
+    vitality: 0
+    levelToEquip: 0
+    refine: 3
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Pickaxe L4 2079
+    item_Name: Pickaxe Ancestral
+    item_Type: 64
+    description: 
+    item_ID: 2079
+    item_Img: {fileID: 21300000, guid: a76b3e8c5eeb78e4ba4b7e870afe480c, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 1
+    equipment_Type: 1024
+    require_Class: 0
+    prefab: {fileID: 5980688853180584912, guid: b5a198727641cf04095cd01be7992f62, type: 3}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 0
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 0
+    defense: 0
+    intelligence: 0
+    luck: 0
+    strength: 0
+    vitality: 0
+    levelToEquip: 0
+    refine: 4
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Axe L1 2081
+    item_Name: Axe Apprentice
+    item_Type: 64
+    description: 
+    item_ID: 2081
+    item_Img: {fileID: 21300000, guid: dd00b56e776e2454db7f1cbf071b6cd6, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 1
+    equipment_Type: 2048
+    require_Class: 0
+    prefab: {fileID: 5980688853180584912, guid: b5a198727641cf04095cd01be7992f62, type: 3}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 0
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 0
+    defense: 0
+    intelligence: 0
+    luck: 0
+    strength: 0
+    vitality: 0
+    levelToEquip: 0
+    refine: 1
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Axe L2 2082
+    item_Name: AxeLunar
+    item_Type: 64
+    description: 
+    item_ID: 2082
+    item_Img: {fileID: 21300000, guid: a58b8fa415d262b4eb4953f0a07b61ec, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 1
+    equipment_Type: 2048
+    require_Class: 0
+    prefab: {fileID: 5980688853180584912, guid: b5a198727641cf04095cd01be7992f62, type: 3}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 0
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 0
+    defense: 0
+    intelligence: 0
+    luck: 0
+    strength: 0
+    vitality: 0
+    levelToEquip: 0
+    refine: 2
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Axe L3 2083
+    item_Name: Axe Mystical
+    item_Type: 64
+    description: 
+    item_ID: 2083
+    item_Img: {fileID: 21300000, guid: 0dd203c0074a4914796fd88034cb1b23, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 1
+    equipment_Type: 2048
+    require_Class: 0
+    prefab: {fileID: 5980688853180584912, guid: b5a198727641cf04095cd01be7992f62, type: 3}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 0
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 0
+    defense: 0
+    intelligence: 0
+    luck: 0
+    strength: 0
+    vitality: 0
+    levelToEquip: 0
+    refine: 3
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Axe L4 2084
+    item_Name: Axe Ancestral
+    item_Type: 64
+    description: 
+    item_ID: 2084
+    item_Img: {fileID: 21300000, guid: e5da62c7c95d27845b3821f6489fb510, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 1
+    equipment_Type: 2048
+    require_Class: 0
+    prefab: {fileID: 5980688853180584912, guid: b5a198727641cf04095cd01be7992f62, type: 3}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 0
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 0
+    defense: 0
+    intelligence: 0
+    luck: 0
+    strength: 0
+    vitality: 0
+    levelToEquip: 0
+    refine: 4
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Scissors L1 2086
+    item_Name: Scissors Apprentice
+    item_Type: 64
+    description: 
+    item_ID: 2086
+    item_Img: {fileID: 21300000, guid: a1762cfb84245c3479de70c1f6756b16, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 1
+    equipment_Type: 4096
+    require_Class: 0
+    prefab: {fileID: 5980688853180584912, guid: b5a198727641cf04095cd01be7992f62, type: 3}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 0
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 0
+    defense: 0
+    intelligence: 0
+    luck: 0
+    strength: 0
+    vitality: 0
+    levelToEquip: 0
+    refine: 1
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Scissors L2 2087
+    item_Name: Scissors Lunar
+    item_Type: 64
+    description: 
+    item_ID: 2087
+    item_Img: {fileID: 21300000, guid: 3c07cd01a2d775e4986e3a67e1544aeb, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 1
+    equipment_Type: 4096
+    require_Class: 0
+    prefab: {fileID: 5980688853180584912, guid: b5a198727641cf04095cd01be7992f62, type: 3}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 0
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 0
+    defense: 0
+    intelligence: 0
+    luck: 0
+    strength: 0
+    vitality: 0
+    levelToEquip: 0
+    refine: 2
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Scissors L3 2088
+    item_Name: Scissors Mystical
+    item_Type: 64
+    description: 
+    item_ID: 2088
+    item_Img: {fileID: 21300000, guid: 475916c413f4c7d489537f955fb68c24, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 1
+    equipment_Type: 4096
+    require_Class: 0
+    prefab: {fileID: 5980688853180584912, guid: b5a198727641cf04095cd01be7992f62, type: 3}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 0
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 0
+    defense: 0
+    intelligence: 0
+    luck: 0
+    strength: 0
+    vitality: 0
+    levelToEquip: 0
+    refine: 3
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Scissors L4 2089
+    item_Name: Scissors Ancestral
+    item_Type: 64
+    description: 
+    item_ID: 2089
+    item_Img: {fileID: 21300000, guid: 32f6a88adff2b48448901047372d9a88, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 1
+    equipment_Type: 4096
+    require_Class: 0
+    prefab: {fileID: 5980688853180584912, guid: b5a198727641cf04095cd01be7992f62, type: 3}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 0
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 0
+    defense: 0
+    intelligence: 0
+    luck: 0
+    strength: 0
+    vitality: 0
+    levelToEquip: 0
+    refine: 4
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Fishing Rod L1 2091
+    item_Name: Fishing Rod Apprentice
+    item_Type: 64
+    description: 
+    item_ID: 2091
+    item_Img: {fileID: 21300000, guid: 06556ae98a1fcc746a26a8fb10f57197, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 1
+    equipment_Type: 8192
+    require_Class: 0
+    prefab: {fileID: 5980688853180584912, guid: b5a198727641cf04095cd01be7992f62, type: 3}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 0
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 0
+    defense: 0
+    intelligence: 0
+    luck: 0
+    strength: 0
+    vitality: 0
+    levelToEquip: 0
+    refine: 1
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Fishing Rod L2 2092
+    item_Name: Fishing Rod Lunar
+    item_Type: 64
+    description: 
+    item_ID: 2092
+    item_Img: {fileID: 21300000, guid: c80fd97f96b9a2141afb77e8c1a4e07c, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 1
+    equipment_Type: 8192
+    require_Class: 0
+    prefab: {fileID: 5980688853180584912, guid: b5a198727641cf04095cd01be7992f62, type: 3}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 0
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 0
+    defense: 0
+    intelligence: 0
+    luck: 0
+    strength: 0
+    vitality: 0
+    levelToEquip: 0
+    refine: 2
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Fishing Rod L3 2093
+    item_Name: Fishing Rod Mystical
+    item_Type: 64
+    description: 
+    item_ID: 2093
+    item_Img: {fileID: 21300000, guid: abe3effde703d4e4eba5b2a8494f3906, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 1
+    equipment_Type: 8192
+    require_Class: 0
+    prefab: {fileID: 5980688853180584912, guid: b5a198727641cf04095cd01be7992f62, type: 3}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 0
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 0
+    defense: 0
+    intelligence: 0
+    luck: 0
+    strength: 0
+    vitality: 0
+    levelToEquip: 0
+    refine: 3
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Fishing Rod L4 2094
+    item_Name: Fishing Rod Ancestral
+    item_Type: 64
+    description: 
+    item_ID: 2094
+    item_Img: {fileID: 21300000, guid: b082dfff20e63a348912242bad6cac71, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 1
+    equipment_Type: 8192
+    require_Class: 0
+    prefab: {fileID: 5980688853180584912, guid: b5a198727641cf04095cd01be7992f62, type: 3}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 0
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 0
+    defense: 0
+    intelligence: 0
+    luck: 0
+    strength: 0
+    vitality: 0
+    levelToEquip: 0
+    refine: 4
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  item_usable_set:
+  - m_Name: Tyr's blessing 1001
+    item_Name: Tyr's blessing
+    item_Type: 32
+    description: A potion with Tyr's power, the god of battle.
+    item_ID: 1001
+    item_Img: {fileID: 21300000, guid: c60fe44e27d3afc43bc4ce21f5a1addc, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 1000
+    equipment_Type: 1
+    require_Class: 0
+    prefab: {fileID: 0}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 0
+    mp: 0
+    atk: 20
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 0
+    defense: 30
+    intelligence: 20
+    luck: 30
+    strength: 0
+    vitality: 0
+    levelToEquip: 0
+    refine: 0
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData:
+    - BuffName: 
+      BuffDescription: 
+      entityRecive: 0
+      activateMoment: 0
+      skillTypeSupport: 0
+      duration: 300
+      addValue: 20
+      removeEffect: 1
+      scriptableBuff: {fileID: 11400000, guid: 5b492bf86c8210f4c852392bb3d9feea, type: 2}
+      BuffFX:
+        m_TimeToDestroy: 0
+        m_ProjectileSpeed: 0
+        m_ArrestObject: 0
+        m_DelayFX: 0
+        m_DamageDelay: 0
+        m_CastOnTarget: 0
+        m_CastOnMouse: 0
+        m_DestroyWhenArrive: 0
+        m_DestroyArriveEnemy: 0
+        m_RotationOffset: {x: 0, y: 0, z: 0}
+        m_PositionOffset: {x: 0, y: 0, z: 0}
+        m_DistanceOffset: 0
+        m_FXPrefab: {fileID: 0}
+        m_AdditionalFXPrefab: {fileID: 0}
+        parent: 0
+    - BuffName: 
+      BuffDescription: 
+      entityRecive: 0
+      activateMoment: 0
+      skillTypeSupport: 0
+      duration: 300
+      addValue: 20
+      removeEffect: 1
+      scriptableBuff: {fileID: 11400000, guid: ea13e5c792d09b94d8ca82a6bfdf250b, type: 2}
+      BuffFX:
+        m_TimeToDestroy: 0
+        m_ProjectileSpeed: 0
+        m_ArrestObject: 0
+        m_DelayFX: 0
+        m_DamageDelay: 0
+        m_CastOnTarget: 0
+        m_CastOnMouse: 0
+        m_DestroyWhenArrive: 0
+        m_DestroyArriveEnemy: 0
+        m_RotationOffset: {x: 0, y: 0, z: 0}
+        m_PositionOffset: {x: 0, y: 0, z: 0}
+        m_DistanceOffset: 0
+        m_FXPrefab: {fileID: 0}
+        m_AdditionalFXPrefab: {fileID: 0}
+        parent: 0
+    - BuffName: 
+      BuffDescription: 
+      entityRecive: 0
+      activateMoment: 0
+      skillTypeSupport: 0
+      duration: 300
+      addValue: 30
+      removeEffect: 1
+      scriptableBuff: {fileID: 11400000, guid: db50e26dcd98612429c57509c4c35dfd, type: 2}
+      BuffFX:
+        m_TimeToDestroy: 0
+        m_ProjectileSpeed: 0
+        m_ArrestObject: 0
+        m_DelayFX: 0
+        m_DamageDelay: 0
+        m_CastOnTarget: 0
+        m_CastOnMouse: 0
+        m_DestroyWhenArrive: 0
+        m_DestroyArriveEnemy: 0
+        m_RotationOffset: {x: 0, y: 0, z: 0}
+        m_PositionOffset: {x: 0, y: 0, z: 0}
+        m_DistanceOffset: 0
+        m_FXPrefab: {fileID: 0}
+        m_AdditionalFXPrefab: {fileID: 0}
+        parent: 0
+    - BuffName: 
+      BuffDescription: 
+      entityRecive: 0
+      activateMoment: 0
+      skillTypeSupport: 0
+      duration: 300
+      addValue: 30
+      removeEffect: 1
+      scriptableBuff: {fileID: 11400000, guid: e6d680f19aabb2e4ebea922ea84362ee, type: 2}
+      BuffFX:
+        m_TimeToDestroy: 0
+        m_ProjectileSpeed: 0
+        m_ArrestObject: 0
+        m_DelayFX: 0
+        m_DamageDelay: 0
+        m_CastOnTarget: 0
+        m_CastOnMouse: 0
+        m_DestroyWhenArrive: 0
+        m_DestroyArriveEnemy: 0
+        m_RotationOffset: {x: 0, y: 0, z: 0}
+        m_PositionOffset: {x: 0, y: 0, z: 0}
+        m_DistanceOffset: 0
+        m_FXPrefab: {fileID: 0}
+        m_AdditionalFXPrefab: {fileID: 0}
+        parent: 0
+  - m_Name: Master Scroll of Agility  1002
+    item_Name: 'Master Scroll of Agility '
+    item_Type: 32
+    description: A scroll capable of temporarily casting the Agility skill.
+    item_ID: 1002
+    item_Img: {fileID: 21300000, guid: 886e4d1177ef8dc4aad1e93ef99ea4cf, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 10
+    equipment_Type: 1
+    require_Class: 0
+    prefab: {fileID: 0}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 0
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 10
+    defense: 0
+    intelligence: 0
+    luck: 0
+    strength: 0
+    vitality: 0
+    levelToEquip: 0
+    refine: 0
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData:
+    - BuffName: 
+      BuffDescription: 
+      entityRecive: 0
+      activateMoment: 0
+      skillTypeSupport: 0
+      duration: 420
+      addValue: 10
+      removeEffect: 1
+      scriptableBuff: {fileID: 11400000, guid: cbbea902f68357444a91ab634d6d1872, type: 2}
+      BuffFX:
+        m_TimeToDestroy: 0
+        m_ProjectileSpeed: 0
+        m_ArrestObject: 0
+        m_DelayFX: 0
+        m_DamageDelay: 0
+        m_CastOnTarget: 0
+        m_CastOnMouse: 0
+        m_DestroyWhenArrive: 0
+        m_DestroyArriveEnemy: 0
+        m_RotationOffset: {x: 0, y: 0, z: 0}
+        m_PositionOffset: {x: 0, y: 0, z: 0}
+        m_DistanceOffset: 0
+        m_FXPrefab: {fileID: 0}
+        m_AdditionalFXPrefab: {fileID: 0}
+        parent: 0
+  - m_Name: Ogre Tooth 1003
+    item_Name: Ogre Tooth
+    item_Type: 32
+    description: Tooth pulled from a great Orc Warrior.
+    item_ID: 1003
+    item_Img: {fileID: 21300000, guid: 2844381f6bce8714680939cd066c47ae, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 10
+    equipment_Type: 1
+    require_Class: 0
+    prefab: {fileID: 0}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 0
+    mp: 0
+    atk: 10
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 0
+    defense: 0
+    intelligence: 0
+    luck: 0
+    strength: 0
+    vitality: 0
+    levelToEquip: 0
+    refine: 0
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData:
+    - BuffName: 
+      BuffDescription: 
+      entityRecive: 0
+      activateMoment: 0
+      skillTypeSupport: 0
+      duration: 900
+      addValue: 10
+      removeEffect: 1
+      scriptableBuff: {fileID: 11400000, guid: 5b492bf86c8210f4c852392bb3d9feea, type: 2}
+      BuffFX:
+        m_TimeToDestroy: 0
+        m_ProjectileSpeed: 0
+        m_ArrestObject: 0
+        m_DelayFX: 0
+        m_DamageDelay: 0
+        m_CastOnTarget: 0
+        m_CastOnMouse: 0
+        m_DestroyWhenArrive: 0
+        m_DestroyArriveEnemy: 0
+        m_RotationOffset: {x: 0, y: 0, z: 0}
+        m_PositionOffset: {x: 0, y: 0, z: 0}
+        m_DistanceOffset: 0
+        m_FXPrefab: {fileID: 0}
+        m_AdditionalFXPrefab: {fileID: 0}
+        parent: 0
+  - m_Name: Cure Potion 1004
+    item_Name: Cure Potion
+    item_Type: 32
+    description: Potion that restores part of HP
+    item_ID: 1004
+    item_Img: {fileID: 21300000, guid: f2dff66d54fc0f04f8e4527c2f606ebd, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 10
+    equipment_Type: 1
+    require_Class: 0
+    prefab: {fileID: 0}
+    prefab_extra: {fileID: 0}
+    hpPercent: 1
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 0
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 0
+    defense: 0
+    intelligence: 0
+    luck: 0
+    strength: 0
+    vitality: 0
+    levelToEquip: 0
+    refine: 0
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData:
+    - BuffName: 
+      BuffDescription: 
+      entityRecive: 0
+      activateMoment: 0
+      skillTypeSupport: 0
+      duration: 0
+      addValue: 10
+      removeEffect: 0
+      scriptableBuff: {fileID: 11400000, guid: 8c76ca786407e444aaa34d29016f65d6, type: 2}
+      BuffFX:
+        m_TimeToDestroy: 0
+        m_ProjectileSpeed: 0
+        m_ArrestObject: 0
+        m_DelayFX: 0
+        m_DamageDelay: 0
+        m_CastOnTarget: 0
+        m_CastOnMouse: 0
+        m_DestroyWhenArrive: 0
+        m_DestroyArriveEnemy: 0
+        m_RotationOffset: {x: 0, y: 0, z: 0}
+        m_PositionOffset: {x: 0, y: 0, z: 0}
+        m_DistanceOffset: 0
+        m_FXPrefab: {fileID: 0}
+        m_AdditionalFXPrefab: {fileID: 0}
+        parent: 0
+  - m_Name: Lotus Flower 1005
+    item_Name: Lotus Flower
+    item_Type: 32
+    description: A beautiful lotus flower that has not yet fully bloomed. The Wicked
+      Nymphs love this!
+    item_ID: 1005
+    item_Img: {fileID: 21300000, guid: 9faeed92ef4c3e44fa2d37f030311420, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 10
+    equipment_Type: 1
+    require_Class: 0
+    prefab: {fileID: 0}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 0
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 0
+    defense: 0
+    intelligence: 0
+    luck: 0
+    strength: 0
+    vitality: 15
+    levelToEquip: 0
+    refine: 0
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData:
+    - BuffName: 
+      BuffDescription: 
+      entityRecive: 0
+      activateMoment: 0
+      skillTypeSupport: 0
+      duration: 1800
+      addValue: 15
+      removeEffect: 1
+      scriptableBuff: {fileID: 11400000, guid: 325684fbe4169a349965289fca567b06, type: 2}
+      BuffFX:
+        m_TimeToDestroy: 0
+        m_ProjectileSpeed: 0
+        m_ArrestObject: 0
+        m_DelayFX: 0
+        m_DamageDelay: 0
+        m_CastOnTarget: 0
+        m_CastOnMouse: 0
+        m_DestroyWhenArrive: 0
+        m_DestroyArriveEnemy: 0
+        m_RotationOffset: {x: 0, y: 0, z: 0}
+        m_PositionOffset: {x: 0, y: 0, z: 0}
+        m_DistanceOffset: 0
+        m_FXPrefab: {fileID: 0}
+        m_AdditionalFXPrefab: {fileID: 0}
+        parent: 0
+  - m_Name: Large Life potion 1006
+    item_Name: Large Life potion
+    item_Type: 32
+    description: Potion that restores most of HP
+    item_ID: 1006
+    item_Img: {fileID: 21300000, guid: 17c46228fd4b2e048968d9547a20940d, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 10
+    equipment_Type: 1
+    require_Class: 0
+    prefab: {fileID: 0}
+    prefab_extra: {fileID: 0}
+    hpPercent: 1
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 30
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 0
+    defense: 0
+    intelligence: 0
+    luck: 0
+    strength: 0
+    vitality: 0
+    levelToEquip: 0
+    refine: 0
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData:
+    - BuffName: 
+      BuffDescription: 
+      entityRecive: 0
+      activateMoment: 0
+      skillTypeSupport: 0
+      duration: 0
+      addValue: 30
+      removeEffect: 0
+      scriptableBuff: {fileID: 11400000, guid: 8c76ca786407e444aaa34d29016f65d6, type: 2}
+      BuffFX:
+        m_TimeToDestroy: 0
+        m_ProjectileSpeed: 0
+        m_ArrestObject: 0
+        m_DelayFX: 0
+        m_DamageDelay: 0
+        m_CastOnTarget: 0
+        m_CastOnMouse: 0
+        m_DestroyWhenArrive: 0
+        m_DestroyArriveEnemy: 0
+        m_RotationOffset: {x: 0, y: 0, z: 0}
+        m_PositionOffset: {x: 0, y: 0, z: 0}
+        m_DistanceOffset: 0
+        m_FXPrefab: {fileID: 0}
+        m_AdditionalFXPrefab: {fileID: 0}
+        parent: 0
+  - m_Name: Stone of the Valkyries 1007
+    item_Name: Stone of the Valkyries
+    item_Type: 32
+    description: A beautiful and sharp stone, possessed of extreme power. It is able
+      to reset a character's attributes.
+    item_ID: 1007
+    item_Img: {fileID: 21300000, guid: fd3ba57df0f5a8c4fa048051b2ef54f0, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 10
+    equipment_Type: 1
+    require_Class: 0
+    prefab: {fileID: 0}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 0
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 0
+    defense: 0
+    intelligence: 0
+    luck: 0
+    strength: 0
+    vitality: 0
+    levelToEquip: 0
+    refine: 0
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Immortality Soup 1008
+    item_Name: Immortality Soup
+    item_Type: 32
+    description: A green stew, with a strange scent, even suspicious, but which gives
+      those who ingest it the sensation of immortality.
+    item_ID: 1008
+    item_Img: {fileID: 21300000, guid: 24b045fe2bf176842a95c495b65a483b, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 1000
+    equipment_Type: 1
+    require_Class: 0
+    prefab: {fileID: 0}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 0
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 0
+    defense: 0
+    intelligence: 0
+    luck: 0
+    strength: 0
+    vitality: 10
+    levelToEquip: 0
+    refine: 0
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData:
+    - BuffName: 
+      BuffDescription: 
+      entityRecive: 0
+      activateMoment: 0
+      skillTypeSupport: 0
+      duration: 1800
+      addValue: 10
+      removeEffect: 1
+      scriptableBuff: {fileID: 11400000, guid: 325684fbe4169a349965289fca567b06, type: 2}
+      BuffFX:
+        m_TimeToDestroy: 0
+        m_ProjectileSpeed: 0
+        m_ArrestObject: 0
+        m_DelayFX: 0
+        m_DamageDelay: 0
+        m_CastOnTarget: 0
+        m_CastOnMouse: 0
+        m_DestroyWhenArrive: 0
+        m_DestroyArriveEnemy: 0
+        m_RotationOffset: {x: 0, y: 0, z: 0}
+        m_PositionOffset: {x: 0, y: 0, z: 0}
+        m_DistanceOffset: 0
+        m_FXPrefab: {fileID: 0}
+        m_AdditionalFXPrefab: {fileID: 0}
+        parent: 0
+  - m_Name: Yggdrasil Seed 1009
+    item_Name: Yggdrasil Seed
+    item_Type: 32
+    description: The seed from Yggdrasil tree, the tree that holds the world together;
+      its soft scent awakens powerful sensations.
+    item_ID: 1009
+    item_Img: {fileID: 21300000, guid: 47b998354659f224db4fd1c0ec5ec4a6, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 1000
+    equipment_Type: 1
+    require_Class: 0
+    prefab: {fileID: 0}
+    prefab_extra: {fileID: 0}
+    hpPercent: 1
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 100
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 0
+    defense: 0
+    intelligence: 0
+    luck: 0
+    strength: 0
+    vitality: 0
+    levelToEquip: 0
+    refine: 0
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData:
+    - BuffName: 
+      BuffDescription: 
+      entityRecive: 0
+      activateMoment: 0
+      skillTypeSupport: 1
+      duration: 0
+      addValue: 100
+      removeEffect: 0
+      scriptableBuff: {fileID: 11400000, guid: 8c76ca786407e444aaa34d29016f65d6, type: 2}
+      BuffFX:
+        m_TimeToDestroy: 0
+        m_ProjectileSpeed: 0
+        m_ArrestObject: 0
+        m_DelayFX: 0
+        m_DamageDelay: 0
+        m_CastOnTarget: 0
+        m_CastOnMouse: 0
+        m_DestroyWhenArrive: 0
+        m_DestroyArriveEnemy: 0
+        m_RotationOffset: {x: 0, y: 0, z: 0}
+        m_PositionOffset: {x: 0, y: 0, z: 0}
+        m_DistanceOffset: 0
+        m_FXPrefab: {fileID: 0}
+        m_AdditionalFXPrefab: {fileID: 0}
+        parent: 0
+  - m_Name: Improved book 1010
+    item_Name: Improved book
+    item_Type: 32
+    description: Box containing an Enhanced Book.
+    item_ID: 1010
+    item_Img: {fileID: 21300000, guid: e03f1439b1f6cab47bb21cc3f79a8d73, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 10
+    equipment_Type: 1
+    require_Class: 0
+    prefab: {fileID: 0}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 0
+    mp: 0
+    atk: 5
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 0
+    defense: 0
+    intelligence: 20
+    luck: 0
+    strength: 0
+    vitality: 0
+    levelToEquip: 0
+    refine: 0
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData:
+    - BuffName: 
+      BuffDescription: 
+      entityRecive: 0
+      activateMoment: 0
+      skillTypeSupport: 0
+      duration: 900
+      addValue: 20
+      removeEffect: 1
+      scriptableBuff: {fileID: 11400000, guid: ea13e5c792d09b94d8ca82a6bfdf250b, type: 2}
+      BuffFX:
+        m_TimeToDestroy: 0
+        m_ProjectileSpeed: 0
+        m_ArrestObject: 0
+        m_DelayFX: 0
+        m_DamageDelay: 0
+        m_CastOnTarget: 0
+        m_CastOnMouse: 0
+        m_DestroyWhenArrive: 0
+        m_DestroyArriveEnemy: 0
+        m_RotationOffset: {x: 0, y: 0, z: 0}
+        m_PositionOffset: {x: 0, y: 0, z: 0}
+        m_DistanceOffset: 0
+        m_FXPrefab: {fileID: 0}
+        m_AdditionalFXPrefab: {fileID: 0}
+        parent: 0
+  - m_Name: Upgrade Mystery Bag 1011
+    item_Name: Upgrade Mystery Bag
+    item_Type: 32
+    description: "It cannot be switched between characters.\r Once opened, it will
+      not be returned.\r A crate containing an Improved Weapon."
+    item_ID: 1011
+    item_Img: {fileID: 21300000, guid: dff0a9485c342884cad714fd8a166038, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 10
+    equipment_Type: 1
+    require_Class: 0
+    prefab: {fileID: 0}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 0
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 0
+    defense: 0
+    intelligence: 0
+    luck: 0
+    strength: 0
+    vitality: 0
+    levelToEquip: 0
+    refine: 0
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Blue Fish 1012
+    item_Name: Blue Fish
+    item_Type: 32
+    description: A fish with bluish scales. If ingested, it is good for health.
+    item_ID: 1012
+    item_Img: {fileID: 21300000, guid: f5908b626eeb04140a2c20a39deb27c9, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 1000
+    equipment_Type: 1
+    require_Class: 0
+    prefab: {fileID: 0}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 10
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 0
+    defense: 0
+    intelligence: 0
+    luck: 0
+    strength: 0
+    vitality: 1
+    levelToEquip: 0
+    refine: 0
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData:
+    - BuffName: 
+      BuffDescription: 
+      entityRecive: 0
+      activateMoment: 0
+      skillTypeSupport: 0
+      duration: 0
+      addValue: 10
+      removeEffect: 0
+      scriptableBuff: {fileID: 11400000, guid: fef616ff5ec7ccc429df3731345b7a2a, type: 2}
+      BuffFX:
+        m_TimeToDestroy: 0
+        m_ProjectileSpeed: 0
+        m_ArrestObject: 0
+        m_DelayFX: 0
+        m_DamageDelay: 0
+        m_CastOnTarget: 0
+        m_CastOnMouse: 0
+        m_DestroyWhenArrive: 0
+        m_DestroyArriveEnemy: 0
+        m_RotationOffset: {x: 0, y: 0, z: 0}
+        m_PositionOffset: {x: 0, y: 0, z: 0}
+        m_DistanceOffset: 0
+        m_FXPrefab: {fileID: 0}
+        m_AdditionalFXPrefab: {fileID: 0}
+        parent: 0
+    - BuffName: 
+      BuffDescription: 
+      entityRecive: 0
+      activateMoment: 0
+      skillTypeSupport: 0
+      duration: 180
+      addValue: 1
+      removeEffect: 0
+      scriptableBuff: {fileID: 11400000, guid: 325684fbe4169a349965289fca567b06, type: 2}
+      BuffFX:
+        m_TimeToDestroy: 0
+        m_ProjectileSpeed: 0
+        m_ArrestObject: 0
+        m_DelayFX: 0
+        m_DamageDelay: 0
+        m_CastOnTarget: 0
+        m_CastOnMouse: 0
+        m_DestroyWhenArrive: 0
+        m_DestroyArriveEnemy: 0
+        m_RotationOffset: {x: 0, y: 0, z: 0}
+        m_PositionOffset: {x: 0, y: 0, z: 0}
+        m_DistanceOffset: 0
+        m_FXPrefab: {fileID: 0}
+        m_AdditionalFXPrefab: {fileID: 0}
+        parent: 0
+  - m_Name: Cooked Fish 1013
+    item_Name: Cooked Fish
+    item_Type: 32
+    description: A coocked fish with bluish scales. If ingested, it is good for health.
+    item_ID: 1013
+    item_Img: {fileID: 21300000, guid: 0cab9ce235564ba4280356aaed347d87, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 1000
+    equipment_Type: 1
+    require_Class: 0
+    prefab: {fileID: 0}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 0
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 0
+    defense: 0
+    intelligence: 0
+    luck: 0
+    strength: 0
+    vitality: 0
+    levelToEquip: 0
+    refine: 0
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData:
+    - BuffName: 
+      BuffDescription: 
+      entityRecive: 0
+      activateMoment: 0
+      skillTypeSupport: 0
+      duration: 0
+      addValue: 20
+      removeEffect: 0
+      scriptableBuff: {fileID: 11400000, guid: 8c76ca786407e444aaa34d29016f65d6, type: 2}
+      BuffFX:
+        m_TimeToDestroy: 0
+        m_ProjectileSpeed: 0
+        m_ArrestObject: 0
+        m_DelayFX: 0
+        m_DamageDelay: 0
+        m_CastOnTarget: 0
+        m_CastOnMouse: 0
+        m_DestroyWhenArrive: 0
+        m_DestroyArriveEnemy: 0
+        m_RotationOffset: {x: 0, y: 0, z: 0}
+        m_PositionOffset: {x: 0, y: 0, z: 0}
+        m_DistanceOffset: 0
+        m_FXPrefab: {fileID: 0}
+        m_AdditionalFXPrefab: {fileID: 0}
+        parent: 0
+  - m_Name: Medicinal Herb 1014
+    item_Name: Medicinal Herb
+    item_Type: 32
+    description: "\rRemoves all debuffs from the character."
+    item_ID: 1014
+    item_Img: {fileID: 21300000, guid: 7c4f00c5be9656a48a42ac93d58e7824, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 10
+    equipment_Type: 1
+    require_Class: 0
+    prefab: {fileID: 0}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 0
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 0
+    defense: 0
+    intelligence: 0
+    luck: 0
+    strength: 0
+    vitality: 0
+    levelToEquip: 0
+    refine: 0
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData:
+    - BuffName: 
+      BuffDescription: 
+      entityRecive: 0
+      activateMoment: 0
+      skillTypeSupport: 0
+      duration: 0
+      addValue: 1
+      removeEffect: 1
+      scriptableBuff: {fileID: 11400000, guid: 8c76ca786407e444aaa34d29016f65d6, type: 2}
+      BuffFX:
+        m_TimeToDestroy: 0
+        m_ProjectileSpeed: 0
+        m_ArrestObject: 0
+        m_DelayFX: 0
+        m_DamageDelay: 0
+        m_CastOnTarget: 0
+        m_CastOnMouse: 0
+        m_DestroyWhenArrive: 0
+        m_DestroyArriveEnemy: 0
+        m_RotationOffset: {x: 0, y: 0, z: 0}
+        m_PositionOffset: {x: 0, y: 0, z: 0}
+        m_DistanceOffset: 0
+        m_FXPrefab: {fileID: 0}
+        m_AdditionalFXPrefab: {fileID: 0}
+        parent: 0
+  item_etc_set:
+  - m_Name: Stone 3001
+    item_Name: Stone
+    item_Type: 16
+    description: 'Simple Stone used to forge superior stones
+
+'
+    item_ID: 3001
+    item_Img: {fileID: 21300000, guid: 2ad578221b4994247b138e7ae39a638b, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 10
+    equipment_Type: 1
+    require_Class: 0
+    prefab: {fileID: 0}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 0
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 0
+    defense: 0
+    intelligence: 0
+    luck: 0
+    strength: 0
+    vitality: 0
+    levelToEquip: 0
+    refine: 0
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Strength Stone 3002
+    item_Name: Strength Stone
+    item_Type: 16
+    description: Take it to a swordsmith, add a weapon, and your weapon will receive
+      strength attributes
+    item_ID: 3002
+    item_Img: {fileID: 21300000, guid: 8b879a8e2be81ea4e94ebc834e3d27a9, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 10
+    equipment_Type: 1
+    require_Class: 0
+    prefab: {fileID: 0}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 0
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 0
+    defense: 0
+    intelligence: 0
+    luck: 0
+    strength: 0
+    vitality: 0
+    levelToEquip: 0
+    refine: 0
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Energy Stone 3003
+    item_Name: Energy Stone
+    item_Type: 16
+    description: Take it to the repair table and add a weapon, to regenerate your
+      weapon's stamina!
+    item_ID: 3003
+    item_Img: {fileID: 21300000, guid: cb7f3c78abbd2774ca461443a9c17792, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 10
+    equipment_Type: 1
+    require_Class: 0
+    prefab: {fileID: 0}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 0
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 0
+    defense: 0
+    intelligence: 0
+    luck: 0
+    strength: 0
+    vitality: 0
+    levelToEquip: 0
+    refine: 0
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Moon Stone 3004
+    item_Name: Moon Stone
+    item_Type: 16
+    description: Take it to a swordsmith and add a weapon, your weapon will receive
+      new upgrades
+    item_ID: 3004
+    item_Img: {fileID: 21300000, guid: ee732ad68481838498a77758dfeafacd, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 10
+    equipment_Type: 1
+    require_Class: 0
+    prefab: {fileID: 0}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 0
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 0
+    defense: 0
+    intelligence: 0
+    luck: 0
+    strength: 0
+    vitality: 0
+    levelToEquip: 0
+    refine: 0
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Sea Stone 3005
+    item_Name: Sea Stone
+    item_Type: 16
+    description: A gem that can be used to craft a Strength Stone
+    item_ID: 3005
+    item_Img: {fileID: 21300000, guid: ce2a9d55e1a8ea046b40e117585a40c0, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 10
+    equipment_Type: 1
+    require_Class: 0
+    prefab: {fileID: 0}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 0
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 0
+    defense: 0
+    intelligence: 0
+    luck: 0
+    strength: 0
+    vitality: 0
+    levelToEquip: 0
+    refine: 0
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Red Gem 3006
+    item_Name: Red Gem
+    item_Type: 16
+    description: A gem that can be used to craft an Energy Stone
+    item_ID: 3006
+    item_Img: {fileID: 21300000, guid: 70674af03c6468a439f6f7036523bea9, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 10
+    equipment_Type: 1
+    require_Class: 0
+    prefab: {fileID: 0}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 0
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 0
+    defense: 0
+    intelligence: 0
+    luck: 0
+    strength: 0
+    vitality: 0
+    levelToEquip: 0
+    refine: 0
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Yellow Gem 3007
+    item_Name: Yellow Gem
+    item_Type: 16
+    description: A gem that can be used to craft a Moon Stone
+    item_ID: 3007
+    item_Img: {fileID: 21300000, guid: 82b41fdaf0e0dde47a56c25429f7dc79, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 10
+    equipment_Type: 1
+    require_Class: 0
+    prefab: {fileID: 0}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 0
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 0
+    defense: 0
+    intelligence: 0
+    luck: 0
+    strength: 0
+    vitality: 0
+    levelToEquip: 0
+    refine: 0
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Blue Gem 3008
+    item_Name: Blue Gem
+    item_Type: 16
+    description: A gem that can be used to craft a Sea Stone
+    item_ID: 3008
+    item_Img: {fileID: 21300000, guid: 88213c3a7e043b243b9c69621a9a164f, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 10
+    equipment_Type: 1
+    require_Class: 0
+    prefab: {fileID: 0}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 0
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 0
+    defense: 0
+    intelligence: 0
+    luck: 0
+    strength: 0
+    vitality: 0
+    levelToEquip: 0
+    refine: 0
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Green Gem 3009
+    item_Name: Green Gem
+    item_Type: 16
+    description: 'It can be used in the creation of advanced stones in the Crafting
+      Table
+
+'
+    item_ID: 3009
+    item_Img: {fileID: 21300000, guid: f91ac5547504e4b4787c2bbc26cae8fd, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 10
+    equipment_Type: 1
+    require_Class: 0
+    prefab: {fileID: 0}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 0
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 0
+    defense: 0
+    intelligence: 0
+    luck: 0
+    strength: 0
+    vitality: 0
+    levelToEquip: 0
+    refine: 0
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Empty Bottle 3011
+    item_Name: Empty Bottle
+    item_Type: 16
+    description: It can be used in the creation of potions in the Crafting Table
+    item_ID: 3011
+    item_Img: {fileID: 21300000, guid: 0485e8d61fa37174fac7285ba5b2b6ed, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 10
+    equipment_Type: 1
+    require_Class: 0
+    prefab: {fileID: 0}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 0
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 0
+    defense: 0
+    intelligence: 0
+    luck: 0
+    strength: 0
+    vitality: 0
+    levelToEquip: 0
+    refine: 0
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Coal 3012
+    item_Name: Coal
+    item_Type: 16
+    description: 
+    item_ID: 3012
+    item_Img: {fileID: 21300000, guid: 110a6118b61d7b34ab016ee40cdf31e6, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 10
+    equipment_Type: 1
+    require_Class: 0
+    prefab: {fileID: 0}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 0
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 0
+    defense: 0
+    intelligence: 0
+    luck: 0
+    strength: 0
+    vitality: 0
+    levelToEquip: 0
+    refine: 0
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Bandage 3013
+    item_Name: Bandage
+    item_Type: 16
+    description: 
+    item_ID: 3013
+    item_Img: {fileID: 21300000, guid: 7e67fff00fa9f6d47ae559ed558d6e46, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 10
+    equipment_Type: 1
+    require_Class: 0
+    prefab: {fileID: 0}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 0
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 0
+    defense: 0
+    intelligence: 0
+    luck: 0
+    strength: 0
+    vitality: 0
+    levelToEquip: 0
+    refine: 0
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Event Stone 3014
+    item_Name: Event Stone
+    item_Type: 1
+    description: A exchange stone, you can use this to mint NFTs
+    item_ID: 3014
+    item_Img: {fileID: 21300000, guid: cba357927e9999e4e88d87a87109c16b, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 999
+    equipment_Type: 1
+    require_Class: 0
+    prefab: {fileID: 0}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 0
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 0
+    defense: 0
+    intelligence: 0
+    luck: 0
+    strength: 0
+    vitality: 0
+    levelToEquip: 0
+    refine: 0
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Mushroom Spores 3015
+    item_Name: Mushroom Spores
+    item_Type: 1
+    description: Spores harvested from magical mushrooms, renowned for their alchemical
+      properties.
+    item_ID: 3015
+    item_Img: {fileID: 21300000, guid: 75de855ee7eb7494aa380acb5e677fa9, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 999
+    equipment_Type: 1
+    require_Class: 0
+    prefab: {fileID: 0}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 0
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 0
+    defense: 0
+    intelligence: 0
+    luck: 0
+    strength: 0
+    vitality: 0
+    levelToEquip: 0
+    refine: 0
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Purple Flowers 3016
+    item_Name: Purple Flowers
+    item_Type: 1
+    description: Vibrant purple flowers, known for their gentle scent and mystical
+      properties.
+    item_ID: 3016
+    item_Img: {fileID: 21300000, guid: 5092ffbdf725a3747a3844ce01eaf5cc, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 999
+    equipment_Type: 1
+    require_Class: 0
+    prefab: {fileID: 0}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 0
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 0
+    defense: 0
+    intelligence: 0
+    luck: 0
+    strength: 0
+    vitality: 0
+    levelToEquip: 0
+    refine: 0
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Nature's Necklace 3017
+    item_Name: Nature's Necklace
+    item_Type: 1
+    description: An enchanted necklace that radiates the essence of nature, providing
+      protection and a connection to the surroundings.
+    item_ID: 3017
+    item_Img: {fileID: 21300000, guid: 5b78a06b52b36ea4c8d9d3bdab036bb9, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 999
+    equipment_Type: 1
+    require_Class: 0
+    prefab: {fileID: 0}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 0
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 0
+    defense: 0
+    intelligence: 0
+    luck: 0
+    strength: 0
+    vitality: 0
+    levelToEquip: 0
+    refine: 0
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Swamp Key 3018
+    item_Name: Swamp Key
+    item_Type: 1
+    description: A magical key carved from materials found in the swamp, used to
+      unlock specific gates in the region.
+    item_ID: 3018
+    item_Img: {fileID: 21300000, guid: 20883e458a1ee474a98fc58b68697b48, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 999
+    equipment_Type: 1
+    require_Class: 0
+    prefab: {fileID: 0}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 0
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 0
+    defense: 0
+    intelligence: 0
+    luck: 0
+    strength: 0
+    vitality: 0
+    levelToEquip: 0
+    refine: 0
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Nature Guardian Stone 3019
+    item_Name: Nature Guardian Stone
+    item_Type: 1
+    description: This mystical stone is one of three keys to release the spirit of
+      Arthael from the ancient tree. Emitting a gentle glow, it pulses with the living
+      essence of nature itself.
+    item_ID: 3019
+    item_Img: {fileID: 21300000, guid: 9a7553b6734d1f3488368b0fb485d3ea, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 999
+    equipment_Type: 1
+    require_Class: 0
+    prefab: {fileID: 0}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 0
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 0
+    defense: 0
+    intelligence: 0
+    luck: 0
+    strength: 0
+    vitality: 0
+    levelToEquip: 0
+    refine: 0
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  item_gold:
+  - m_Name: CST 4001
+    item_Name: CST
+    item_Type: 1
+    description: Token and Local Currency
+    item_ID: 4001
+    item_Img: {fileID: 21300000, guid: 1b467c1a3560e4bd19fa403b38bcb0d3, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 1
+    equipment_Type: 1
+    require_Class: 0
+    prefab: {fileID: 0}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 0
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 0
+    defense: 0
+    intelligence: 0
+    luck: 0
+    strength: 0
+    vitality: 0
+    levelToEquip: 0
+    refine: 0
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData:
+    - BuffName: 
+      BuffDescription: 
+      entityRecive: 0
+      activateMoment: 0
+      skillTypeSupport: 0
+      duration: 0
+      addValue: 0
+      removeEffect: 0
+      scriptableBuff: {fileID: 0}
+      BuffFX:
+        m_TimeToDestroy: 0
+        m_ProjectileSpeed: 0
+        m_ArrestObject: 0
+        m_DelayFX: 0
+        m_DamageDelay: 0
+        m_CastOnTarget: 0
+        m_CastOnMouse: 0
+        m_DestroyWhenArrive: 0
+        m_DestroyArriveEnemy: 0
+        m_RotationOffset: {x: 0, y: 0, z: 0}
+        m_PositionOffset: {x: 0, y: 0, z: 0}
+        m_DistanceOffset: 0
+        m_FXPrefab: {fileID: 0}
+        m_AdditionalFXPrefab: {fileID: 0}
+        parent: 0
+  trophies:
+  - m_Name: Hero medal 5001
+    item_Name: Hero medal
+    item_Type: 0
+    description: 
+    item_ID: 5001
+    item_Img: {fileID: 2800000, guid: 71401493150c65b4a8519a492844556c, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 1
+    equipment_Type: 1
+    require_Class: 0
+    prefab: {fileID: 0}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 0
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 0
+    defense: 0
+    intelligence: 0
+    luck: 0
+    strength: 0
+    vitality: 0
+    levelToEquip: 0
+    refine: 0
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Heart of the City 5002
+    item_Name: Heart of the City
+    item_Type: 0
+    description: 
+    item_ID: 5002
+    item_Img: {fileID: 2800000, guid: 9051d4497839c754bac9eebc3c9bafcb, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 1
+    equipment_Type: 1
+    require_Class: 0
+    prefab: {fileID: 0}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 0
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 0
+    defense: 0
+    intelligence: 0
+    luck: 0
+    strength: 0
+    vitality: 0
+    levelToEquip: 0
+    refine: 0
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Royal Jewel 5003
+    item_Name: Royal Jewel
+    item_Type: 0
+    description: 
+    item_ID: 5003
+    item_Img: {fileID: 2800000, guid: 1d05ba77fe81f4d4e91781d31f042ee6, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 1
+    equipment_Type: 1
+    require_Class: 0
+    prefab: {fileID: 0}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 0
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 0
+    defense: 0
+    intelligence: 0
+    luck: 0
+    strength: 0
+    vitality: 0
+    levelToEquip: 0
+    refine: 0
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: King Necklace 5004
+    item_Name: King Necklace
+    item_Type: 0
+    description: 
+    item_ID: 5004
+    item_Img: {fileID: 2800000, guid: 621a30d58eec4a8469233cbe6c86d33b, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 1
+    equipment_Type: 1
+    require_Class: 0
+    prefab: {fileID: 0}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 0
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 0
+    defense: 0
+    intelligence: 0
+    luck: 0
+    strength: 0
+    vitality: 0
+    levelToEquip: 0
+    refine: 0
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  item_gather:
+  - m_Name: Raw Fish 6001
+    item_Name: Raw Fish
+    item_Type: 32
+    description: Can be consumed if taken to a Crafting Table
+    item_ID: 6001
+    item_Img: {fileID: 21300000, guid: e72f146ab8b368f41bd97c21d70b3984, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 10
+    equipment_Type: 1
+    require_Class: 0
+    prefab: {fileID: 0}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 0
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 0
+    defense: 0
+    intelligence: 0
+    luck: 0
+    strength: 0
+    vitality: 0
+    levelToEquip: 0
+    refine: 0
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Leaf 6002
+    item_Name: Leaf
+    item_Type: 16
+    description: Can create medicines if taken to a Crafting Table
+    item_ID: 6002
+    item_Img: {fileID: 21300000, guid: 21091b19087ed184fb2c9a632912c4e7, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 10
+    equipment_Type: 1
+    require_Class: 0
+    prefab: {fileID: 0}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 0
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 0
+    defense: 0
+    intelligence: 0
+    luck: 0
+    strength: 0
+    vitality: 0
+    levelToEquip: 0
+    refine: 0
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Ore 6003
+    item_Name: Ore
+    item_Type: 16
+    description: Can be used to create items and basic weapons
+    item_ID: 6003
+    item_Img: {fileID: 21300000, guid: 33691d5e34b040f47878d31069606666, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 10
+    equipment_Type: 1
+    require_Class: 0
+    prefab: {fileID: 0}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 0
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 0
+    defense: 0
+    intelligence: 0
+    luck: 0
+    strength: 0
+    vitality: 0
+    levelToEquip: 0
+    refine: 0
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  - m_Name: Wood 6004
+    item_Name: Wood
+    item_Type: 16
+    description: Can be used to create basic tools and as fuel to heat food
+    item_ID: 6004
+    item_Img: {fileID: 21300000, guid: 5a14c4f9bb2b6ab4bb99ae7d2b81cea1, type: 3}
+    item_Effect: {fileID: 0}
+    item_Sfx: {fileID: 0}
+    Stacklimit: 10
+    equipment_Type: 1
+    require_Class: 0
+    prefab: {fileID: 0}
+    prefab_extra: {fileID: 0}
+    hpPercent: 0
+    mpPercent: 0
+    atkPercent: 0
+    defPercent: 0
+    hitPercent: 0
+    spdPercent: 0
+    atkSpdPercent: 0
+    agilityPercent: 0
+    defensePercent: 0
+    intelligencePercent: 0
+    luckPercent: 0
+    strengthPercent: 0
+    vitalityPercent: 0
+    hp: 0
+    mp: 0
+    atk: 0
+    def: 0
+    hit: 0
+    spd: 0
+    atkSpd: 0
+    agility: 0
+    defense: 0
+    intelligence: 0
+    luck: 0
+    strength: 0
+    vitality: 0
+    levelToEquip: 0
+    refine: 0
+    star: 0
+    stamina: 0
+    criPercent: 0
+    moveSpd: 0
+    buffData: []
+  filteredItemList: []
+  filterInput: 

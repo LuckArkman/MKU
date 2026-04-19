@@ -13,7 +13,8 @@ namespace MKU.Scripts.ItemSystem
         public ItemCategory itemCategory = ItemCategory.None;
         [Range(1, 100)]
         public int level = 1;
-        [TextArea(0,10)]
+        public int max_level = 15;
+        [TextArea]
         public string description;
         public Sprite icon;
         public GameObject pickup;

@@ -14,7 +14,7 @@ namespace MKU.Scripts.CharacterSystem
         public Image _lifeBar, _spBar, _nextLevelBar;
         public TextMeshProUGUI life, sp, level, _currentXP, _XPnextLevel;
         public CharacterProgression _progression;
-        public CharacterController player;
+        public CharController player;
         public Button _levelUP;
         
         

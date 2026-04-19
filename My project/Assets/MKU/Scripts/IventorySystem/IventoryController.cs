@@ -5,7 +5,6 @@ using MKU.Scripts.Interfaces;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
-using CharacterController = MKU.Scripts.CharacterSystem.CharacterController;
 
 namespace MKU.Scripts.IventorySystem
 {
@@ -17,7 +16,7 @@ namespace MKU.Scripts.IventorySystem
         public TextMeshProUGUI Atk, AtkSpd, Accuracy, Critical, Defense,Hp, currentXP;
         public TextMeshProUGUI Strength, Agility, Vitality, Intelligence, Dexterity, Luck;
         public CharacterProgression _progression;
-        public CharacterController _charController;
+        public CharController _charController;
         public _Attributs _attributes;
         public Transform player;
 
@@ -30,10 +29,10 @@ namespace MKU.Scripts.IventorySystem
         private void OnUpdate()
         {
             if(player == null) player = CharSettings._Instance._charController.transform;
-            if(_progression == null) _progression = player.GetComponent<CharacterController>().GetProgression();
-            if(_charController == null)_charController = player.GetComponent<CharacterController>();
+            if(_progression == null) _progression = player.GetComponent<CharController>().GetProgression();
+            if(_charController == null)_charController = player.GetComponent<CharController>();
             SetStatus(_charController._status);
-            _attributes = player.GetComponent<CharacterController>()._attributes;
+            _attributes = player.GetComponent<CharController>()._attributes;
             SetAtributtes(_attributes);
         }
         

@@ -1,4 +1,4 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 using MKU.Scripts.Enums;
 using MKU.Scripts.HelthSystem;
 using MKU.Scripts.ItemSystem;
@@ -16,6 +16,9 @@ namespace MKU.Scripts.EquipamentsSystem
         public int max = 1;
         public bool shoulModifiers;
         public _Attributs attributes = new _Attributs();
+        
+        [Header("Set System")]
+        public ItemSetData itemSet;
         // PUBLIC
 
         public EquipLocation GetAllowedEquipLocation()

@@ -9,7 +9,6 @@ using MKU.Scripts.ItemSystem;
 using MKU.Scripts.Singletons;
 using Newtonsoft.Json;
 using UnityEngine;
-using CharacterController = MKU.Scripts.CharacterSystem.CharacterController;
 
 namespace MKU.Scripts.IventorySystem
 {
@@ -17,7 +16,7 @@ namespace MKU.Scripts.IventorySystem
     {
         public UpdateInventory(){}
         
-        public async void OnUpdateInventory(CharacterController player)
+        public async void OnUpdateInventory(CharController player)
         {
             EquipamentUI _equipamentUI = player.GetComponent<EquipamentUI>();
             Dictionary<string, Bag> _bag = new();

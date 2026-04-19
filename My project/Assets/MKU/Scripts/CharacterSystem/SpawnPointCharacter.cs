@@ -38,7 +38,7 @@ namespace MKU.Scripts.CharacterSystem
                             GameObject character = null; 
                             if(position != Vector3.zero)character = Instantiate(x.characterModel, position, Quaternion.identity);
                             if(position == Vector3.zero)character = Instantiate(x.characterModel, transform.position, Quaternion.identity);
-                            CharacterController controller = character.GetComponentInChildren<CharacterController>();
+                            CharController controller = character.GetComponentInChildren<CharController>();
                             controller._attributes = new _Attributs(_character.Str, _character.Agi, _character.Vit,
                                 _character.Inteligence, _character.Luk, _character.Def);
                             controller.Id = Singleton.Instance._character.id;
@@ -65,7 +65,7 @@ namespace MKU.Scripts.CharacterSystem
                             GameObject character = null; 
                             if(position != Vector3.zero)character = Instantiate(x.characterModel, position, Quaternion.identity);
                             if(position == Vector3.zero)character = Instantiate(x.characterModel, transform.position, Quaternion.identity);
-                            CharacterController controller = character.GetComponentInChildren<CharacterController>();
+                            CharController controller = character.GetComponentInChildren<CharController>();
                             controller._attributes = new _Attributs(_char.str, _char.agi, _char.vit,
                                 _char.inteligence, _char.luk, _char.def);
                             controller.Id = Singleton.Instance._character.id;
@@ -82,7 +82,7 @@ namespace MKU.Scripts.CharacterSystem
                             GameObject character = null;
                             if (position != Vector3.zero) character = Instantiate(x.characterModel, position, Quaternion.identity);
                             if (position == Vector3.zero) character = Instantiate(x.characterModel, transform.position, Quaternion.identity);
-                            CharacterController controller = character.GetComponentInChildren<CharacterController>();
+                            CharController controller = character.GetComponentInChildren<CharController>();
                             controller._attributes = new _Attributs(_char.str, _char.agi, _char.vit,
                                 _char.inteligence, _char.luk, _char.def);
                             controller.Id = Singleton.Instance._character.id;

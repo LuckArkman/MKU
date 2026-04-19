@@ -5,7 +5,7 @@ namespace MKU.Scripts.CharacterSystem
 {
     public class AccessController : MonoBehaviour
     {
-        public CharacterController charController;
+        public CharController charController;
 
         private void Start()
         {

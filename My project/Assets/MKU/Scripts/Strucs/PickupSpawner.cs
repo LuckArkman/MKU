@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using MKU.Scripts.CharacterSystem;
 using MKU.Scripts.Enums;
 using MKU.Scripts.EquipamentsSystem;
 using MKU.Scripts.Interfaces;
@@ -8,7 +9,6 @@ using MKU.Scripts.ItemSystem;
 using MKU.Scripts.IventorySystem;
 using MKU.Scripts.Singletons;
 using UnityEngine;
-using CharacterController = MKU.Scripts.CharacterSystem.CharacterController;
 
 namespace MKU.Scripts.Strucs
 {
@@ -47,7 +47,7 @@ namespace MKU.Scripts.Strucs
             
         }
 
-        public async void OnPikup(int time, CharacterController _charController)
+        public async void OnPikup(int time, CharController _charController)
         {
             await Task.Delay(time);
             _pickup._ItemDropCollections.ForEach(i =>

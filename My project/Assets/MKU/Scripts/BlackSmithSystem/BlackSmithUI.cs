@@ -9,13 +9,12 @@ using MKU.Scripts.Singletons;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
-using CharacterController = MKU.Scripts.CharacterSystem.CharacterController;
 
 namespace MKU.Scripts.BlackSmithSystem
 {
     public class BlackSmithUI : MonoBehaviour
     {
-        public CharacterController player;
+        public CharController player;
         public BlackSmith blackSmith;
         public TextMeshProUGUI _parcent, _price;
         public Button _refinar;
@@ -48,7 +47,7 @@ namespace MKU.Scripts.BlackSmithSystem
             
         }
 
-        public void OnStart(CharacterController playerTransform)
+        public void OnStart(CharController playerTransform)
         {
             blackSmith =  CharSettings._Instance._blackSmith;
             player = playerTransform;

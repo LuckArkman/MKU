@@ -1,6 +1,6 @@
 ﻿using System;
+using MKU.Scripts.CharacterSystem;
 using UnityEngine;
-using CharacterController = MKU.Scripts.CharacterSystem.CharacterController;
 
 namespace MKU.Scripts.HelthSystem
 {
@@ -11,7 +11,7 @@ namespace MKU.Scripts.HelthSystem
         public int currentExperience = 0;
         public int experienceToNextLevel = 100; 
         public float experienceMultiplier = 1.2f;
-        public CharacterController _CharController;
+        public CharController _CharController;
         public GameObject _levelUpVfxPrefab;
         public Transform position;
         public CharacterProgression(){}

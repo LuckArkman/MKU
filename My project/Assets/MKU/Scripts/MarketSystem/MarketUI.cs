@@ -1,8 +1,8 @@
-﻿using MKU.Scripts.Singletons;
+﻿using MKU.Scripts.CharacterSystem;
+using MKU.Scripts.Singletons;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
-using CharacterController = MKU.Scripts.CharacterSystem.CharacterController;
 
 namespace MKU.Scripts.MarketSystem
 {
@@ -19,7 +19,7 @@ namespace MKU.Scripts.MarketSystem
         public Transform marketParent;
         Color originalTotalTextColor;
 
-        public void OnStart(CharacterController player)
+        public void OnStart(CharController player)
         {
             currentMarket = Singleton.Instance._market;
             currentMarket = marketParent.GetComponent<Market>();

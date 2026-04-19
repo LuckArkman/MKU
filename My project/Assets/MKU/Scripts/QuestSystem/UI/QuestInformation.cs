@@ -10,7 +10,6 @@ using MKU.Scripts.Singletons;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
-using CharacterController = MKU.Scripts.CharacterSystem.CharacterController;
 
 namespace MKU.Scripts.Tasks.UI
 {
@@ -87,7 +86,7 @@ namespace MKU.Scripts.Tasks.UI
                     if(string.IsNullOrWhiteSpace(response))Singleton.Instance._financeController.GetBalance();
                     
                 }
-                CharacterController charController = CharSettings._Instance._charController.GetComponent<CharacterController>();
+                CharController charController = CharSettings._Instance._charController.GetComponent<CharController>();
                 var quest = _quest.GetQuest(_quest);
                 Dictionary<string, Quest> _quests = new();
                 _quests.Add(_quest.Name, quest);

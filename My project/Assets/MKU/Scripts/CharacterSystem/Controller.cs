@@ -1,8 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using MKU.Scripts.InputSystem;
 using MKU.Scripts.BlackSmithSystem;
-using MKU.Scripts.CharacterSystem;
 using MKU.Scripts.CookingSystem;
 using MKU.Scripts.CraftingSystem;
 using MKU.Scripts.Dialogue;
@@ -10,17 +8,19 @@ using MKU.Scripts.Enums;
 using MKU.Scripts.EquipamentsSystem;
 using MKU.Scripts.FightSystem;
 using MKU.Scripts.HelthSystem;
-using MKU.Scripts.InputSystem;
 using MKU.Scripts.Interfaces;
 using MKU.Scripts.IventorySystem;
 using MKU.Scripts.MarketSystem;
 using MKU.Scripts.SettingsSystem;
 using MKU.Scripts.Singletons;
 using MKU.Scripts.SkillSystem;
+using MKU.Scripts.FisicsSystem;
 using MKU.Scripts.Strucs;
 using TMPro;
 using Unity.Android.Gradle.Manifest;
 using UnityEngine;
+using UnityEngine.Serialization;
+using Gravity = MKU.Scripts.FisicsSystem.Gravity;
 
 namespace MKU.Scripts.CharacterSystem
 {
@@ -54,7 +54,8 @@ namespace MKU.Scripts.CharacterSystem
         public bool combo;
         public PickupSpawner _pickupSpawner;
         public Gravity _gravity = new Gravity();
-        public CharacterController characterController;
+        [FormerlySerializedAs("characterController")]
+        public CharacterController charController;
         public InputManager inputManager;
         public bool IsWalk, Attack;
         public AIConversant _aiconversant;
@@ -184,11 +185,6 @@ namespace MKU.Scripts.CharacterSystem
 
             _base.StartCalc(_attributes, _status, progression.level);
             status = _status.Clone();
-        }
-
-        public void OnGathering()
-        {
-            _pickupSpawner.OnPikup(100, characterController);
         }
     }
 }

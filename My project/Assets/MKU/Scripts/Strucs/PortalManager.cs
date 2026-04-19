@@ -5,7 +5,6 @@ using MKU.Scripts.Enums;
 using MKU.Scripts.Models;
 using MKU.Scripts.Singletons;
 using UnityEngine;
-using CharacterController = MKU.Scripts.CharacterSystem.CharacterController;
 
 namespace MKU.Scripts.Strucs
 {
@@ -25,7 +24,7 @@ namespace MKU.Scripts.Strucs
 
         private void OnCollisionEnter(Collision collision)
         {
-            if (collision.transform.GetComponent<CharacterController>() != null)
+            if (collision.transform.GetComponent<CharController>() != null)
                 Singleton.Instance.OnLoadScene(portal.ToString());
         }
 

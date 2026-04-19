@@ -25,7 +25,7 @@ namespace MKU.Scripts.CharacterSystem
         public ReSpawn _reSpawn;
         public GameObject _knight;
         public BlackSmith _blackSmith;
-        public CharacterController _charController;
+        public CharController _charController;
         public Transform _camera;
         public List<InventorySlotUI> _inventorySlots = new();
         public List<EquipmentSlotUI> _equipmentSlots = new();

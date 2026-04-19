@@ -6,7 +6,6 @@ using MKU.Scripts.ItemSystem;
 using MKU.Scripts.Singletons;
 using MKU.Scripts.Strucs;
 using UnityEngine;
-using CharacterController = MKU.Scripts.CharacterSystem.CharacterController;
 
 namespace MKU.Scripts.IventorySystem
 {
@@ -21,7 +20,7 @@ namespace MKU.Scripts.IventorySystem
         public bool isCollected = false; // Para evitar coleta duplicada
         public PickupType pickupType = PickupType.None;
         [SerializeField] private Vector3 m_offset;
-        public CharacterController _charController;
+        public CharController _charController;
         public List<ItemDropCollection> _ItemDropCollections = new();
         private Inventory inventory;
 
@@ -103,7 +102,7 @@ namespace MKU.Scripts.IventorySystem
 
                 if (distance <= 0.5f)
                 {
-                    PickupItem(_charController.characterController);
+                    PickupItem(_charController.charController);
                 }
             }
         }

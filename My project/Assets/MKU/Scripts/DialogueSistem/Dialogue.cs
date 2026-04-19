@@ -107,6 +107,24 @@ namespace MKU.Scripts.Dialogue
             }
 #endif
         }
-        public void OnAfterDeserialize(){}
+
+        public void OnAfterDeserialize()
+        {
+#if UNITY_EDITOR
+            if (nodes.Count <= 0){
+                DialogueNode newNode = MakeNode(null);
+                AddNode(newNode);
+            }
+            if (AssetDatabase.GetAssetPath(this) != ""){
+                foreach (DialogueNode node in GetAllNodes())
+                {
+                    if (AssetDatabase.GetAssetPath(node) == "")
+                    {
+                        AssetDatabase.AddObjectToAsset(node, this);
+                    }
+                }
+            }
+#endif 
+        }
     }
 }

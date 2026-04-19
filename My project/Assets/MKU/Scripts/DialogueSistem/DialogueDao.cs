@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -15,7 +15,7 @@ namespace MKU.Scripts.Dialogue
         {
             DialogueNode newNode = CreateInstance<DialogueNode>();
             newNode.name = Guid.NewGuid().ToString();
-            if (parent is null) {
+            if (parent != null) {
 #if UNITY_EDITOR
                 parent.AddChild(newNode);
                 newNode.SetPosition(parent.GetRect().position + newNodeOffset);

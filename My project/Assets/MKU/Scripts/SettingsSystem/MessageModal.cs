@@ -10,7 +10,6 @@ using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
-using CharacterController = MKU.Scripts.CharacterSystem.CharacterController;
 
 namespace MKU.Scripts.SettingsSystem
 {
@@ -49,7 +48,7 @@ namespace MKU.Scripts.SettingsSystem
                         if (x._character.name == _character.classCharacter)
                         {
                             var character = Instantiate(x.characterModel, position, Quaternion.identity);
-                            CharacterController controller = character.GetComponentInChildren<CharacterController>();
+                            CharController controller = character.GetComponentInChildren<CharController>();
                             controller.Id = _character.id;
                             controller._attributes = attributs;
                             CharSettings._Instance._charController = controller;

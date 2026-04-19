@@ -10,20 +10,19 @@ using MKU.Scripts.Singletons;
 using MKU.Scripts.UsablesSystem;
 using Newtonsoft.Json;
 using UnityEngine;
-using CharacterController = MKU.Scripts.CharacterSystem.CharacterController;
 
 namespace MKU.Scripts.IventorySystem
 {
     public class InventoryRecover
     {
-        private CharacterController _charController;
+        private CharController _charController;
         private Inventory _inventory;
 
         public InventoryRecover()
         {
         }
 
-        public async Task OnInvetoryRegen(CharacterController charController)
+        public async Task OnInvetoryRegen(CharController charController)
         {
             Debug.Log($"{nameof(OnInvetoryRegen)} >> {DateTime.Now}");
             string url = $"http://cursed.agencia4red.com:6050/Inventory/{charController.Id}";

@@ -145,7 +145,7 @@ namespace MKU.Scripts.CharacterSystem
                     if (x._character.name == _character.classCharacter)
                     {
                         var character = Instantiate(x.characterModel, _reSpawn.transform.position, Quaternion.identity);
-                        CharacterController controller = character.GetComponentInChildren<CharacterController>();
+                        CharController controller = character.GetComponentInChildren<CharController>();
                         controller._attributes = new _Attributs(Singleton.Instance._character.str, _character.agi,
                             _character.vit, _character.inteligence, _character.luk, _character.def);
                         _player = character;

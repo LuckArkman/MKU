@@ -13,13 +13,12 @@ using MKU.Scripts.MarketSystem;
 using MKU.Scripts.Strucs;
 using MKU.Scripts.Tasks;
 using UnityEngine;
-using CharacterController = MKU.Scripts.CharacterSystem.CharacterController;
 
 namespace MKU.Scripts.Singletons
 {
     public class Singleton : MonoBehaviour
     {
-        public CharacterController _charController = null;
+        public CharController _charController = null;
         public FinanceController _financeController;
         public InputManager _inputManager = null;
         public Inventory _inventory = null;

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:VisualElement class="dashboard">
+        <!-- Sidebar -->
+        <ui:VisualElement class="sidebar">
+            <ui:Label text="Item Dashboard" class="logo" />
+            <ui:Button name="TabBasic" text="Basic Info" class="tab selected-tab" />
+            <ui:Button name="TabAssets" text="Assets &amp; Visuals" class="tab" />
+            <ui:Button name="TabAttributes" text="Attributes" class="tab" />
+            <ui:Button name="TabSets" text="Set System" class="tab" />
+            <ui:VisualElement class="spacer" />
+            <ui:Button name="SaveItemBtn" text="Save Item" class="create-button" />
+        </ui:VisualElement>
+
+        <!-- Content Area -->
+        <ui:VisualElement class="content">
+            <ui:Label name="ContentTitle" text="Basic Info" class="content-title" />
+            <ui:ScrollView class="content-scroll">
+
+                <!-- Page 1: Basic Info -->
+                <ui:VisualElement name="PageBasic" class="page">
+                    <ui:EnumField name="ItemCategoryField" label="Category" />
+                    <ui:EnumField name="EquipLocationField" label="Equip Location" />
+                    <ui:TextField name="ItemNameField" label="Display Name" />
+                    <ui:TextField name="DescriptionField" label="Description" multiline="true" />
+                    <ui:VisualElement style="flex-direction: row; margin-top:10px;">
+                        <ui:TextField name="ItemIDField" label="Item ID (GUID)" style="flex-grow: 1;" />
+                        <ui:Button name="GenerateGUIDBtn" text="Generate" class="action-btn" />
+                    </ui:VisualElement>
+                    <ui:TextField name="ItemTokenField" label="Web3 Hash Token" />
+                </ui:VisualElement>
+
+                <!-- Page 2: Assets -->
+                <ui:VisualElement name="PageAssets" class="page" style="display: none;">
+                    <uie:ObjectField name="IconField" label="Item Icon" />
+                    <uie:ObjectField name="PickupField" label="Pickup Prefab" />
+                </ui:VisualElement>
+
+                <!-- Page 3: Attributes -->
+                <ui:VisualElement name="PageAttributes" class="page" style="display: none;">
+                    <ui:VisualElement class="grid-container">
+                        <uie:IntegerField name="AttrStr" label="Strength" class="stat-field" />
+                        <uie:IntegerField name="AttrAgi" label="Agility" class="stat-field" />
+                        <uie:IntegerField name="AttrVit" label="Vitality" class="stat-field" />
+                        <uie:IntegerField name="AttrInt" label="Intelligence" class="stat-field" />
+                        <uie:IntegerField name="AttrDex" label="Dexterity" class="stat-field" />
+                        <uie:IntegerField name="AttrLuk" label="Luck" class="stat-field" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+
+                <!-- Page 4: Set System -->
+                <ui:VisualElement name="PageSets" class="page" style="display: none;">
+                    <ui:Label name="SetWarning" text="Set System is only available for Equipable items." class="warning-label" />
+                    <ui:VisualElement name="SetSystemContainer">
+                        <uie:ObjectField name="ItemSetField" label="Item Set" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+
+            </ui:ScrollView>
+        </ui:VisualElement>
+
+        <!-- Right Panel (Item List) -->
+        <ui:VisualElement class="right-panel">
+            <ui:Label text="Items Database" class="right-panel-title" />
+            <ui:VisualElement style="flex-direction: row; justify-content: space-between; margin-bottom: 10px;">
+                <ui:Button name="NewItemBtn" text="+ New Item" class="action-btn" style="margin-left: 0;" />
+                <ui:Button name="RefreshListBtn" text="Refresh" class="action-btn" />
+            </ui:VisualElement>
+            
+            <ui:ListView name="ItemListView" class="item-list" item-height="30" />
+        </ui:VisualElement>
+
+    </ui:VisualElement>
+</ui:UXML>

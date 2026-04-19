@@ -1,10 +1,10 @@
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using MKU.Scripts.CharacterSystem;
 using MKU.Scripts.Singletons;
 using MKU.Scripts.Tasks.UI;
 using UnityEngine;
-using CharacterController = MKU.Scripts.CharacterSystem.CharacterController;
 
 namespace MKU.Scripts.Tasks
 {
@@ -31,7 +31,7 @@ namespace MKU.Scripts.Tasks
 
         public async Task OnReturnQuests()
         {
-            CharacterController charController = Singleton.Instance._charController;
+            CharController charController = Singleton.Instance._charController;
             var _Quests = await new RecoverQuests().RecoverQuest(charController.Id);
             foreach (var key in _Quests._quests)
             {
