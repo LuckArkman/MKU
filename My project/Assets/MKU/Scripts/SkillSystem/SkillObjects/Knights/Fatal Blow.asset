@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dca3da5c56d84951863073f7fc388a5a, type: 3}
+  m_Name: Fatal Blow
+  m_EditorClassIdentifier: 
+  toggleKey: 101
+  animationType: 5
+  range: 2
+  time: 0
+  skillID: 14e5155e-d302-4caa-9166-14ea5f9b089e
+  skillToken: 
+  Name: 'Fatal Blow '
+  Icon: {fileID: 21300000, guid: c8133735ce676b54a9dadd86671a3947, type: 3}
+  Level: 1
+  MaxLevel: 0
+  SPCost: 10
+  _attackType: 1
+  element: 0
+  skill: {fileID: 0}
+  Power: 30
+  Description: Hits the opponent with a single physical melee strike.
+  timeRefresh: 0
+  _skillPrefab: {fileID: 880349861908309844, guid: 4fd504151b415764ab6c9b19196ae5b3, type: 3}
+  parcent: 1

@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae008489044f4fd09e236a892c55936c, type: 3}
+  m_Name: Hunter
+  m_EditorClassIdentifier: 
+  nickName: 
+  TokenId: 0
+  Clan: CloudWings
+  Rarity: Common
+  Stone: 0
+  Staked: 0
+  IsRented: 0
+  Inteligence: 5
+  Vit: 1
+  Def: 9
+  Luk: 5
+  Agi: 9
+  Str: 1
+  estimatedRewards: 0
+  onMarketplace: 0
+  ownerPercentage: 0
+  rewarded: 0
+  playerPercentage: 0
+  Level: 1
+  Xp: 0
+  AccXp: 0
+  Life: 
+  Stars: 0
+  StoneLimit: 0
+  StoneDay: 0

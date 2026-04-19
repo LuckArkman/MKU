@@ -1,0 +1,154 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-5431371843983369647
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e5620a919445b54da7cb3af1c1a4446, type: 3}
+  m_Name: 774070b1
+  m_EditorClassIdentifier: 
+  questChain:
+    questModel: 0
+    Name: 
+  Title: What is Lorem Ipsum?
+  id: 0
+  task_type: 0
+  Name: 774070b1
+  task_description: Lorem Ipsum is simply dummy text of the printing and typesetting
+    industry. Lorem Ipsum has been the industry's standard dummy text ever since
+    the 1500s, when an unknown printer took a galley of type and scrambled it to
+    make a type specimen book. It has survived not only five centuries, but also
+    the leap into electronic typesetting, remaining essentially unchanged. It was
+    popularised in the 1960s with the release of Letraset sheets containing Lorem
+    Ipsum passages, and more recently with desktop publishing software like Aldus
+    PageMaker including versions of Lorem Ipsum.
+  quest_id: 0
+  seconds_to_expire: 1000
+  IsComplete: 0
+  _objectives:
+  - taskCondition: 2
+    description: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+      eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat."'
+    Id: 774070b1
+    IsComplete: 0
+    number: 20
+  _rewards:
+  - _rewardType: 2
+    number: 800
+    itemId: 
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae24a03586644cf391e463d6c4a3ad04, type: 3}
+  m_Name: QuestPanel
+  m_EditorClassIdentifier: 
+  items:
+  - {fileID: 3343433474019952926}
+  show: 0
+--- !u!114 &1902750706680566167
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e5620a919445b54da7cb3af1c1a4446, type: 3}
+  m_Name: 85e3b2df
+  m_EditorClassIdentifier: 
+  questChain:
+    questModel: 2
+    Name: 774070b1
+  Title: What is Lorem Ipsum?
+  id: 0
+  task_type: 0
+  Name: 85e3b2df
+  task_description: Lorem Ipsum is simply dummy text of the printing and typesetting
+    industry. Lorem Ipsum has been the industry's standard dummy text ever since
+    the 1500s, when an unknown printer took a galley of type and scrambled it to
+    make a type specimen book. It has survived not only five centuries, but also
+    the leap into electronic typesetting, remaining essentially unchanged. It was
+    popularised in the 1960s with the release of Letraset sheets containing Lorem
+    Ipsum passages, and more recently with desktop publishing software like Aldus
+    PageMaker including versions of Lorem Ipsum.
+  quest_id: 0
+  seconds_to_expire: 0
+  IsComplete: 0
+  _objectives:
+  - taskCondition: 1
+    description: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+      eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat."'
+    Id: 85e3b2df
+    IsComplete: 1
+    number: 5
+  - taskCondition: 3
+    description: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+      eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat."'
+    Id: 85e3b2df
+    IsComplete: 1
+    number: 0
+  _rewards:
+  - _rewardType: 1
+    number: 200
+    itemId: 
+  - _rewardType: 2
+    number: 900
+    itemId: 
+--- !u!114 &3343433474019952926
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6c9833358a0dc54ab7c05cf47a41b42, type: 3}
+  m_Name: 7add44ca
+  m_EditorClassIdentifier: 
+  questChain:
+    questModel: 1
+    Name: 
+  Title: Quest1
+  id: 0
+  quest_id: 0
+  task_type: 0
+  Name: 7add44ca
+  task_description: testando quest sistema
+  seconds_to_expire: 0
+  IsComplete: 0
+  _objectives:
+  - taskCondition: 1
+    description: mate 2 aranhas
+    Items: []
+    id: 
+    IsComplete: 0
+    number: 2
+  _rewards:
+  - _rewardType: 1
+    number: 100
+    itemId: 
+  - _rewardType: 2
+    number: 100
+    itemId: 
+  - _rewardType: 3
+    number: 1
+    itemId: 
