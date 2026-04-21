@@ -131,6 +131,7 @@ MonoBehaviour:
   currentState: 0
   isMovement: 0
   homeSpawn: {fileID: 0}
+  enemyIdForQuest: Slime
   moveSpeed: 1.5
   rotationSpeed: 2
   gravity: 15
@@ -143,6 +144,8 @@ MonoBehaviour:
   patrolRadius: 1
   waypointReachedDistance: 0.5
   patrolWaitTime: 1.5
+  xpReward: 50
+  attackRange: 1.8
   attributes:
     Strength: 10
     Agility: 8
@@ -277,13 +280,34 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 100002, guid: 2732fe64dd2799f439fb845921df626b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3033771332557992183}
   m_SourcePrefab: {fileID: 100100000, guid: 2732fe64dd2799f439fb845921df626b, type: 3}
 --- !u!4 &5162868922862612024 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400002, guid: 2732fe64dd2799f439fb845921df626b, type: 3}
   m_PrefabInstance: {fileID: 5162868922863006906}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &5162868922862973464 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100002, guid: 2732fe64dd2799f439fb845921df626b, type: 3}
+  m_PrefabInstance: {fileID: 5162868922863006906}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3033771332557992183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5162868922862973464}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 060e6be016065004d975b70704ce54b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  aiController: {fileID: 8966707148432060930}
 --- !u!95 &5162868922872480218 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 9500000, guid: 2732fe64dd2799f439fb845921df626b, type: 3}

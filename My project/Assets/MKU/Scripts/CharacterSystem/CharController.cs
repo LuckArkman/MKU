@@ -1,3 +1,4 @@
+using MKU.Scripts.CombateSystem;
 using MKU.Scripts.HelthSystem;
 using MKU.Scripts.Interfaces;
 using MKU.Scripts.Singletons;
@@ -7,10 +8,12 @@ namespace MKU.Scripts.CharacterSystem
     using UnityEngine;
     using UnityEngine.InputSystem;
 
-    public class CharController : Controller, IPlayer
+    public class CharController : Controller, IPlayer, IDamageable
     {
         public Animator animator;
-        [Header("Movement & Curve Settings")] public float speed = 5f;
+        [Header("Movement & Curve Settings")] 
+        public float walkSpeed = 5f;
+        public float runSpeed = 8.5f;
         public bool grounded;
 
         [Tooltip(
@@ -31,23 +34,49 @@ namespace MKU.Scripts.CharacterSystem
         // Tracks the current mathematical angle for the curve
         private float currentMovementAngleRad;
         public bool weapon;
-        public CharacterProgression progression;
+        public CharacterProgression progression = new CharacterProgression();
+        
+        private CombatProcessor _combatProcessor;
 
         void Start()
         {
             Singleton.Instance._charController = this;
             mainCamera = Camera.main;
 
-            // Initialize the starting angle based on where the character is currently facing
+            if (_base.Status == null) _base.Status = new _Stats();
+            _base.StartCalc(_base.Attributes, _base.Status, progression.level);
+
             currentMovementAngleRad = Mathf.Atan2(transform.forward.z, transform.forward.x);
+            _combatProcessor = new CombatProcessor(_base, transform, animator);
         }
 
         void Update()
         {
             grounded = _gravity.IsGrounded(charController);
             HandleInput();
+            HandleCombat();
             if(!_gravity.IsGrounded(charController))_gravity.IsGravity(charController);
             MoveCharacterWithCurve();
+
+            if (animator != null)
+            {
+                animator.SetBool("walk", isMoving && !isRunning);
+                animator.SetBool("run", isRunning);
+            }
+        }
+
+        private void HandleCombat()
+        {
+            if (_combatProcessor == null) return;
+            _combatProcessor.UpdateCooldown(Time.deltaTime);
+
+            if (Mouse.current != null && Mouse.current.leftButton.wasPressedThisFrame)
+            {
+                Vector3 startPos = sensor != null ? sensor.position : transform.position + Vector3.up;
+                Vector3 dir = sensor != null ? sensor.forward : transform.forward;
+
+                _combatProcessor.ExecutePhysicsAttack(startPos, dir, 2.5f);
+            }
         }
 
         private void HandleInput()
@@ -64,6 +93,7 @@ namespace MKU.Scripts.CharacterSystem
 
             inputDirection = new Vector3(dirX, 0, dirZ).normalized;
             isMoving = inputDirection.magnitude > 0.1f;
+            isRunning = isMoving && Keyboard.current.shiftKey.isPressed;
         }
 
         private void MoveCharacterWithCurve()
@@ -100,8 +130,9 @@ namespace MKU.Scripts.CharacterSystem
                 currentMovementAngleRad = currentDeg * Mathf.Deg2Rad;
 
                 // 4. --- MOVIMENTO SENO E COSSENO ---
-                float moveX = Mathf.Cos(currentMovementAngleRad) * speed * Time.deltaTime;
-                float moveZ = Mathf.Sin(currentMovementAngleRad) * speed * Time.deltaTime;
+                float currentSpeed = isRunning ? runSpeed : walkSpeed;
+                float moveX = Mathf.Cos(currentMovementAngleRad) * currentSpeed * Time.deltaTime;
+                float moveZ = Mathf.Sin(currentMovementAngleRad) * currentSpeed * Time.deltaTime;
 
                 // Aplica o movimento curvo usando o CharacterController
                 charController.Move(new Vector3(moveX, 0, moveZ));
@@ -117,22 +148,42 @@ namespace MKU.Scripts.CharacterSystem
 
         public GameObject GetPlayer()
         {
-            throw new System.NotImplementedException();
+            return gameObject;
         }
 
         public void HitAttack(Base _baseEnemy)
         {
-            throw new System.NotImplementedException();
+             // Deprecated legacy interface requirement (maintained to not break IPlayer)
         }
+
+        public void TakeDamage(int damage)
+        {
+            if (!_base.IsAlive()) return;
+            if (animator != null) animator.SetTrigger("Hit"); 
+            
+            _base.TakeDamage(damage);
+            
+            if (!_base.IsAlive())
+            {
+                if (animator != null) animator.SetTrigger("Die");
+            }
+            else
+            {
+                OnRegenHP(); // Aciona o gatilho da rotina de cura sobre tempo sempre que ferido
+            }
+        }
+
+        public Transform GetTransform() => transform;
+        public Base GetBaseStats() => _base;
 
         public Base GetBase()
         {
-            throw new System.NotImplementedException();
+            return _base;
         }
 
         public CharacterProgression GetProgression()
         {
-            throw new System.NotImplementedException();
+            return progression;
         }
 
         public Transform GetspawnUI()

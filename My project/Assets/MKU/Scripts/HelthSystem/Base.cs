@@ -1,6 +1,5 @@
-﻿using System;
+using System;
 using System.Threading.Tasks;
-using MKU.Scripts.HelthSystem;
 
 namespace MKU.Scripts.HelthSystem
 {
@@ -36,11 +35,11 @@ namespace MKU.Scripts.HelthSystem
             Status.Hit = (int)(10 + Attributes.Dexterity *  (_level *1.2f));
             Status.CriticalChance = Attributes.Luck * 0.3f *  (_level *1.2f);
             
-            Status.PhysicalDefense = (int)(Attributes.Vitality / 2 *  (_level *1.2f));
-            Status.MagicDefense = (int)(Attributes.Intelligence / 2 *  (_level *1.2f));
+            Status.PhysicalDefense = (int)((Attributes.Vitality / 2.0f) *  (_level *1.2f));
+            Status.MagicDefense = (int)((Attributes.Intelligence / 2.0f) *  (_level *1.2f));
             
-            Status.HpRegen = (int)(Attributes.Vitality / 5 + 1 * (_level *1.2f));
-            Status.SpRegen = (int)(Attributes.Intelligence / 5 + 1 *  (_level *1.2f));
+            Status.HpRegen = (int)(((Attributes.Vitality / 5.0f) + 1f) * (_level *1.2f));
+            Status.SpRegen = (int)(((Attributes.Intelligence / 5.0f) + 1f) *  (_level *1.2f));
         }
         
         public void ApplyEquipmentBonus(_Attributs equipmentBonus)
@@ -55,20 +54,19 @@ namespace MKU.Scripts.HelthSystem
             UpdateStatus();
         }
         
-        public void ApplyTemporaryBuff(_Attributs buff, int durationInSeconds)
+        public async void ApplyTemporaryBuff(_Attributs buff, int durationInSeconds)
         {
             Attributes.Strength += buff.Strength;
             Attributes.Agility += buff.Agility;
 
             UpdateStatus();
             
-            Task.Delay(durationInSeconds * 1000).ContinueWith(_ =>
-            {
-                Attributes.Strength -= buff.Strength;
-                Attributes.Agility -= buff.Agility;
+            await Task.Delay(durationInSeconds * 1000);
+            
+            Attributes.Strength -= buff.Strength;
+            Attributes.Agility -= buff.Agility;
 
-                UpdateStatus();
-            });
+            UpdateStatus();
         }
         
         public bool IsAlive() => Status.CurrentHP > 0;

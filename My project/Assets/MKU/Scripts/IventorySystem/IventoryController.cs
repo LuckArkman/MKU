@@ -1,5 +1,4 @@
-﻿using System;
-using MKU.Scripts.CharacterSystem;
+﻿using MKU.Scripts.CharacterSystem;
 using MKU.Scripts.HelthSystem;
 using MKU.Scripts.Interfaces;
 using TMPro;
@@ -31,8 +30,8 @@ namespace MKU.Scripts.IventorySystem
             if(player == null) player = CharSettings._Instance._charController.transform;
             if(_progression == null) _progression = player.GetComponent<CharController>().GetProgression();
             if(_charController == null)_charController = player.GetComponent<CharController>();
-            SetStatus(_charController._status);
-            _attributes = player.GetComponent<CharController>()._attributes;
+            SetStatus(_charController._base.Status);
+            _attributes = player.GetComponent<CharController>()._base.Attributes;
             SetAtributtes(_attributes);
         }
         

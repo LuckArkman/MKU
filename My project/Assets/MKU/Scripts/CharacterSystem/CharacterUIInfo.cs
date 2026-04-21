@@ -53,8 +53,6 @@ namespace MKU.Scripts.CharacterSystem
                 }
             }
         }
-        public void OnLevelUP()
-        => _progression.LevelUp();
         
     }
 }

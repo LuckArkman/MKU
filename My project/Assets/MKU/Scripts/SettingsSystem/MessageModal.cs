@@ -36,7 +36,7 @@ namespace MKU.Scripts.SettingsSystem
             Singleton.Instance._financeController.OnStart();
             if (response == "200")
             {
-                _Attributs attributs = CharSettings._Instance._charController._attributes;
+                _Attributs attributs = CharSettings._Instance._charController._base.Attributes;
                 Vector3 position = CharSettings._Instance._charController.transform.position;
                 Destroy(CharSettings._Instance._player);
                 if(Singleton.Instance._character == null)Instantiate(CharSettings._Instance._reSpawn._gameObject, position, Quaternion.identity);
@@ -50,7 +50,7 @@ namespace MKU.Scripts.SettingsSystem
                             var character = Instantiate(x.characterModel, position, Quaternion.identity);
                             CharController controller = character.GetComponentInChildren<CharController>();
                             controller.Id = _character.id;
-                            controller._attributes = attributs;
+                            controller._base.Attributes = attributs;
                             CharSettings._Instance._charController = controller;
                             CharSettings._Instance._player = character;
                             CharSettings._Instance._inputManager = controller.inputManager;

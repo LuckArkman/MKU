@@ -1,4 +1,5 @@
 using System.Collections;
+using MKU.Scripts.CombateSystem;
 using MKU.Scripts.HelthSystem;
 using MKU.Scripts.Interfaces;
 using MKU.Scripts.Singletons;
@@ -12,7 +13,7 @@ namespace MKU.Scripts.AISystem
     /// Requer modelo físico e detecção própria (Raycast/Whiskers).
     /// </summary>
     [RequireComponent(typeof(CharacterController))]
-    public class AIController : MonoBehaviour
+    public class AIController : MonoBehaviour, IDamageable
     {
         public enum AIState { Patrol, Chase, Return }
         
@@ -23,6 +24,10 @@ namespace MKU.Scripts.AISystem
         public bool isMovement = false;
 
         [HideInInspector] public SpawnPointController homeSpawn;
+
+        [Header("Quest Identidade")]
+        [Tooltip("ID usado pelo QuestSystem para registrar abate de monstros (ex: 'Slime', 'Goblin').")]
+        public string enemyIdForQuest = "Slime";
 
         [Header("Navegação (CharacterController)")]
         public float moveSpeed = 3.5f;
@@ -41,6 +46,11 @@ namespace MKU.Scripts.AISystem
         public float patrolRadius = 5f;
         public float waypointReachedDistance = 1f;
         public float patrolWaitTime = 1.5f;
+
+        [Header("Combate")]
+        public int xpReward = 50;
+        public float attackRange = 1.5f;
+        private CombatProcessor _combatProcessor;
 
         [Header("Atributos RPG")]
         public _Attributs attributes = new _Attributs(10, 8, 10, 5, 6, 3);
@@ -63,6 +73,7 @@ namespace MKU.Scripts.AISystem
         private void Awake()
         {
             _controller = GetComponent<CharacterController>();
+            if (animator == null) animator = GetComponentInChildren<Animator>();
         }
 
         private void Start()
@@ -70,6 +81,7 @@ namespace MKU.Scripts.AISystem
             _homePosition = transform.position;
             status = new _Stats();
             baseStats.StartCalc(attributes, status, level);
+            _combatProcessor = new CombatProcessor(baseStats, transform, animator);
 
             if (Singleton.Instance != null && Singleton.Instance._charController != null)
                 _player = Singleton.Instance._charController.transform;
@@ -149,10 +161,35 @@ namespace MKU.Scripts.AISystem
             }
 
             _currentTarget = _player.position;
-            isMovement = true;
-            MoveTowardsTarget();
-
             float distanceToPlayer = Vector3.Distance(transform.position, _player.position);
+
+            if (_combatProcessor != null) _combatProcessor.UpdateCooldown(Time.deltaTime);
+
+            if (distanceToPlayer <= attackRange)
+            {
+                isMovement = false;
+                ApplyGravityOnly(); 
+                
+                if (_player != null)
+                {
+                    Vector3 lookDirection = _player.position - transform.position;
+                    lookDirection.y = 0;
+                    if (lookDirection.sqrMagnitude > 0.01f)
+                    {
+                        Quaternion targetRot = Quaternion.LookRotation(lookDirection);
+                        transform.rotation = Quaternion.Slerp(transform.rotation, targetRot, rotationSpeed * 1.5f * Time.deltaTime);
+                    }
+                }
+
+                if (animator != null) animator.SetBool("Attack", true);
+            }
+            else
+            {
+                if (animator != null) animator.SetBool("Attack", false);
+                isMovement = true;
+                MoveTowardsTarget();
+            }
+
             if (distanceToPlayer > aggroRange)
             {
                 _outOfAggroTimer += Time.deltaTime;
@@ -289,7 +326,72 @@ namespace MKU.Scripts.AISystem
             else EnterReturn();
         }
 
+        public void TakeDamage(int damage)
+        {
+            if (!baseStats.IsAlive()) return;
+
+            if (animator != null) animator.SetTrigger("Hit");
+            baseStats.TakeDamage(damage);
+
+            if (!baseStats.IsAlive())
+            {
+                Die();
+                return;
+            }
+
+            if (currentState == AIState.Patrol || currentState == AIState.Return)
+            {
+                SetTarget(true);
+            }
+        }
+
+        private void Die()
+        {
+            if (animator != null) animator.SetTrigger("Die");
+
+            var player = Singleton.Instance._charController;
+            if (player != null)
+            {
+                var manager = new CharacterProgressionManager(player.progression);
+                manager.AddExperience((long)(xpReward * level * 1.5f));
+
+                var qManager = Singleton.Instance.questManager;
+                if (qManager != null)
+                {
+                    if (qManager.quest != null)
+                        qManager.quest.OnSendLogic(MKU.Scripts.Enums.TaskCondition.Hunting, enemyIdForQuest, player.Id);
+
+                    foreach (var q in qManager._questLast)
+                    {
+                        if (q != null) q.OnSendLogic(MKU.Scripts.Enums.TaskCondition.Hunting, enemyIdForQuest, player.Id);
+                    }
+                }
+            }
+            
+            this.enabled = false;
+            Destroy(gameObject, 0.4f);
+        }
+
+        public Transform GetTransform() => transform;
+        public Base GetBaseStats() => baseStats;
+
         public AIController GetInstance() => this;
+        public void Attack()
+        {
+            Debug.Log("Attack");
+            animator.SetBool("Attack", false);
+            if (_player != null)
+            {
+                var damageable = _player.GetComponent<IDamageable>();
+                if (damageable != null && Vector3.Distance(transform.position, _player.position) <= attackRange + 0.5f) 
+                {
+                    if (_combatProcessor != null)
+                    {
+                        _combatProcessor.ApplyDamageDirectly(damageable);
+                    }
+                }
+            }
+        }
 
         public void Initialize(Vector3 origin, float radius, int level, _Attributs attrs)
         {

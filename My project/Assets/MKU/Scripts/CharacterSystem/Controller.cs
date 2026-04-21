@@ -1,4 +1,4 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 using MKU.Scripts.InputSystem;
 using MKU.Scripts.BlackSmithSystem;
 using MKU.Scripts.CookingSystem;
@@ -12,12 +12,9 @@ using MKU.Scripts.Interfaces;
 using MKU.Scripts.IventorySystem;
 using MKU.Scripts.MarketSystem;
 using MKU.Scripts.SettingsSystem;
-using MKU.Scripts.Singletons;
 using MKU.Scripts.SkillSystem;
-using MKU.Scripts.FisicsSystem;
 using MKU.Scripts.Strucs;
 using TMPro;
-using Unity.Android.Gradle.Manifest;
 using UnityEngine;
 using UnityEngine.Serialization;
 using Gravity = MKU.Scripts.FisicsSystem.Gravity;
@@ -75,10 +72,6 @@ namespace MKU.Scripts.CharacterSystem
         public float turn_Smooth = 0.015f;
         public float turn_Smooth_Time = 0.025f;
         public float turn_Smooth_angle = 0.025f;
-        public _Attributs _attributes = new _Attributs();
-        public _Attributs _originalAttributes;
-        public _Stats _status;
-        public _Stats status;
         public Base _base = new Base();
         public SkillTree _skillTree = new SkillTree();
         public List<WeaponCollection> _Collections = new();
@@ -117,10 +110,35 @@ namespace MKU.Scripts.CharacterSystem
             }
         }
 
-        public async void OnRegenHP()
+        private Coroutine _regenCoroutine;
+
+        public void OnRegenHP()
         {
-            if (_status.CurrentHP < _status.MaxHP && _base.IsAlive()) _status.CurrentHP = _status.CurrentHP + 1;
-            if (_status.CurrentSP < _status.MaxSP && _base.IsAlive()) _status.CurrentSP = _status.CurrentSP + 1;
+            if (_regenCoroutine == null)
+            {
+                _regenCoroutine = StartCoroutine(RegenRoutine());
+            }
+        }
+
+        private System.Collections.IEnumerator RegenRoutine()
+        {
+            while (_base.IsAlive() && (_base.Status.CurrentHP < _base.Status.MaxHP || _base.Status.CurrentSP < _base.Status.MaxSP))
+            {
+                yield return new WaitForSeconds(1f);
+
+                if (_base.Status.CurrentHP < _base.Status.MaxHP)
+                {
+                    _base.Status.CurrentHP += Mathf.Max(1, _base.Status.HpRegen);
+                    if (_base.Status.CurrentHP > _base.Status.MaxHP) _base.Status.CurrentHP = _base.Status.MaxHP;
+                }
+
+                if (_base.Status.CurrentSP < _base.Status.MaxSP)
+                {
+                    _base.Status.CurrentSP += Mathf.Max(1, _base.Status.SpRegen);
+                    if (_base.Status.CurrentSP > _base.Status.MaxSP) _base.Status.CurrentSP = _base.Status.MaxSP;
+                }
+            }
+            _regenCoroutine = null;
         }
 
         public void OnWeapon()
@@ -165,26 +183,6 @@ namespace MKU.Scripts.CharacterSystem
                     _attribut.Add(equipableItem._parcentes[equipableItem.level].attributes);
                 }
             });
-            weapon = _attribut.Count > 0;
-            if (_attribut.Count > 0)
-            {
-                _originalAttributes = Singleton.Instance._originalAttributes;
-                _attributes.RestoreOriginalValues(_originalAttributes);
-                _attribut.ForEach(_ =>
-                {
-                    _attributes._addAttributs(_.Strength, _.Agility, _.Vitality, _.Intelligence, _.Dexterity,
-                        _.Luck);
-                });
-                _base.StartCalc(_attributes, _status, progression.level);
-            }
-
-            if (_attribut.Count <= 0)
-            {
-                _attributes.RestoreOriginalValues(_originalAttributes);
-            }
-
-            _base.StartCalc(_attributes, _status, progression.level);
-            status = _status.Clone();
         }
     }
 }

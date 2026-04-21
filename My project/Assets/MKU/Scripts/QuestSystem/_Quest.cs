@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using MKU.Scripts.Enums;
 using MKU.Scripts.Singletons;
@@ -27,7 +27,10 @@ namespace MKU.Scripts.Tasks
         {
             UserId = Id;
             Objective obj = _objectives.Find(x => x.taskCondition == condition);
-            StartLogic(obj, condition, _object);
+            if (obj != null && !obj.IsComplete)
+            {
+                StartLogic(obj, condition, _object);
+            }
         }
 
         public async void StartLogic(Objective objective, TaskCondition actionCode, string _object)

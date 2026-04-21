@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 4508282659321723125}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.82025, y: 0, z: -8.72488}
+  m_LocalPosition: {x: -10.8, y: 0, z: -3.3000002}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -151,9 +151,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MKU.Scripts.Cam.CameraController
   target: {fileID: 1554630183245689039}
-  distance: 10
-  pitchAngle: 55
-  smoothFollowSpeed: 1
+  distance: 3
+  minDistance: 2
+  maxDistance: 15
+  zoomSpeed: 0.005
+  shoulderOffset: {x: 0.6, y: 1.6, z: 0}
+  minPitch: -70
+  maxPitch: 80
+  smoothFollowSpeed: 10
   rotationSpeed: 0.25
 --- !u!1 &5326503422699870716
 GameObject:
@@ -170,6 +175,7 @@ GameObject:
   - component: {fileID: 6051019086432145320}
   - component: {fileID: 4774264608389159903}
   - component: {fileID: 2443504212931920248}
+  - component: {fileID: 3026013771884137754}
   m_Layer: 0
   m_Name: Capsule
   m_TagString: Untagged
@@ -186,7 +192,7 @@ Transform:
   m_GameObject: {fileID: 5326503422699870716}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.82025, y: 1, z: -1.27512}
+  m_LocalPosition: {x: 10.8, y: 1, z: -6.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -268,7 +274,7 @@ CapsuleCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Radius: 0.5
   m_Height: 2
@@ -313,8 +319,10 @@ MonoBehaviour:
   rayCount: 10
   combo: 0
   _pickupSpawner: {fileID: 0}
-  _gravity: 0
-  characterController: {fileID: 0}
+  _gravity:
+    gravityDirection: {x: 0, y: -1, z: 0}
+    accel: 50
+  charController: {fileID: 3026013771884137754}
   inputManager: {fileID: 0}
   IsWalk: 0
   Attack: 0
@@ -358,10 +366,10 @@ MonoBehaviour:
     currentExperience: 0
     experienceToNextLevel: 100
     experienceMultiplier: 1.2
-    _CharController: {fileID: 0}
+    _CharController: {fileID: 6051019086432145320}
     _levelUpVfxPrefab: {fileID: 0}
     position: {fileID: 0}
-  target: {fileID: 0}
+  target: {fileID: 5326503422699870716}
   animator: {fileID: 6266769868819760812}
   _hitPoint: {fileID: 0}
   _camera: {fileID: 0}
@@ -372,58 +380,14 @@ MonoBehaviour:
   turn_Smooth: 0.015
   turn_Smooth_Time: 0.025
   turn_Smooth_angle: 0.025
-  _attributes:
-    Strength: 0
-    Agility: 0
-    Vitality: 0
-    Intelligence: 0
-    Dexterity: 0
-    Luck: 0
-  _originalAttributes:
-    Strength: 0
-    Agility: 0
-    Vitality: 0
-    Intelligence: 0
-    Dexterity: 0
-    Luck: 0
-  _status:
-    MaxHP: 0
-    MaxSP: 0
-    PhysicalAttack: 0
-    MagicAttack: 0
-    AttackSpeed: 0
-    Flee: 0
-    Hit: 0
-    HpRegen: 0
-    SpRegen: 0
-    CriticalChance: 0
-    PhysicalDefense: 0
-    MagicDefense: 0
-    CurrentHP: 0
-    CurrentSP: 0
-  status:
-    MaxHP: 0
-    MaxSP: 0
-    PhysicalAttack: 0
-    MagicAttack: 0
-    AttackSpeed: 0
-    Flee: 0
-    Hit: 0
-    HpRegen: 0
-    SpRegen: 0
-    CriticalChance: 0
-    PhysicalDefense: 0
-    MagicDefense: 0
-    CurrentHP: 0
-    CurrentSP: 0
   _base:
     Attributes:
-      Strength: 0
-      Agility: 0
-      Vitality: 0
-      Intelligence: 0
-      Dexterity: 0
-      Luck: 0
+      Strength: 5
+      Agility: 2
+      Vitality: 7
+      Intelligence: 3
+      Dexterity: 3
+      Luck: 1
     Status:
       MaxHP: 0
       MaxSP: 0
@@ -447,7 +411,9 @@ MonoBehaviour:
   charNameText: {fileID: 0}
   _damage: {fileID: 0}
   animator: {fileID: 6266769868819760812}
-  speed: 2
+  walkSpeed: 5
+  runSpeed: 8.5
+  grounded: 0
   turnCurveSpeed: 120
   groundLayer:
     serializedVersion: 2
@@ -511,6 +477,31 @@ MonoBehaviour:
   m_PointerBehavior: 0
   m_CursorLockBehavior: 0
   m_ScrollDeltaPerTick: 6
+--- !u!143 &3026013771884137754
+CharacterController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5326503422699870716}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Height: 2.2
+  m_Radius: 0.25
+  m_SlopeLimit: 45
+  m_StepOffset: 0.3
+  m_SkinWidth: 0.08
+  m_MinMoveDistance: 0.001
+  m_Center: {x: 0, y: 0.05, z: 0}
 --- !u!1001 &545670405761743677
 PrefabInstance:
   m_ObjectHideFlags: 0
